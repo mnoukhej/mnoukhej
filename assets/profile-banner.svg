@@ -1,198 +1,164 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
   <title id="title">Muhammad Noukhez — Senior Python Developer &amp; GenAI / ML Engineer</title>
-  <desc id="desc">Futuristic banner with neon glow, glassmorphism terminal, tech chips, and verified experience.</desc>
+  <desc id="desc">High-tech developer banner featuring Muhammad Noukhez, Senior Python &amp; GenAI Architect with 7+ years enterprise experience.</desc>
+
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060913"/>
-      <stop offset="45%" stop-color="#0c1222"/>
-      <stop offset="85%" stop-color="#140f2d"/>
-      <stop offset="100%" stop-color="#090d1a"/>
+    <linearGradient id="canvasBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a12"/>
+      <stop offset="50%" stop-color="#0d1424"/>
+      <stop offset="100%" stop-color="#14102b"/>
     </linearGradient>
 
-    <!-- Neon Glow Accents -->
-    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Neon Accents -->
+    <linearGradient id="neonGradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="40%" stop-color="#818cf8"/>
-      <stop offset="80%" stop-color="#c084fc"/>
-      <stop offset="100%" stop-color="#f472b6"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
     </linearGradient>
 
-    <!-- Text Highlight Gradient -->
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Text Shimmer -->
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="60%" stop-color="#e0e7ff"/>
+      <stop offset="70%" stop-color="#f1f5f9"/>
       <stop offset="100%" stop-color="#93c5fd"/>
     </linearGradient>
 
-    <radialGradient id="glowLeft" cx="15%" cy="30%" r="45%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.22"/>
+    <!-- Radial Ambient Glows -->
+    <radialGradient id="leftAmbient" cx="20%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18"/>
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </radialGradient>
 
-    <radialGradient id="glowRight" cx="80%" cy="50%" r="55%">
-      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.28"/>
-      <stop offset="50%" stop-color="#c084fc" stop-opacity="0.12"/>
+    <radialGradient id="rightAmbient" cx="85%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#c084fc" stop-opacity="0.08"/>
       <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Subtle Isometric Grid Pattern -->
-    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#6366f1" stroke-opacity="0.07" stroke-width="1"/>
-      <circle cx="40" cy="40" r="1.5" fill="#38bdf8" fill-opacity="0.18"/>
+    <!-- Grid Pattern -->
+    <pattern id="gridPattern" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#6366f1" stroke-opacity="0.08" stroke-width="1"/>
+      <circle cx="36" cy="36" r="1.2" fill="#38bdf8" fill-opacity="0.15"/>
     </pattern>
 
-    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.88"/>
-      <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0.75"/>
-    </linearGradient>
-
-    <!-- Filter for subtle drop-shadow -->
-    <filter id="neonShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#6366f1" flood-opacity="0.35"/>
-    </filter>
-
     <style>
-      @keyframes cursorBlink {
-        0%, 45% { opacity: 1; }
-        50%, 100% { opacity: 0; }
-      }
-      @keyframes pulseGlow {
-        0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.4)); }
-        50% { opacity: 1; filter: drop-shadow(0 0 16px rgba(129, 140, 248, 0.7)); }
-      }
-      @keyframes floatSoft {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-4px); }
-      }
-      .cursor { animation: cursorBlink 1s infinite; }
-      .glowing-badge { animation: pulseGlow 4s ease-in-out infinite; }
-      .floating-terminal { animation: floatSoft 6s ease-in-out infinite; }
+      @keyframes blink { 0%, 45% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      .cursor-blink { animation: blink 1.1s infinite; }
     </style>
   </defs>
 
-  <!-- Canvas Background -->
-  <rect width="1200" height="360" rx="24" fill="url(#bgGradient)"/>
-  <rect width="1200" height="360" rx="24" fill="url(#cyberGrid)"/>
-  <rect width="1200" height="360" rx="24" fill="url(#glowLeft)"/>
-  <rect width="1200" height="360" rx="24" fill="url(#glowRight)"/>
+  <!-- Base Canvas -->
+  <rect width="1200" height="320" rx="20" fill="url(#canvasBg)"/>
+  <rect width="1200" height="320" rx="20" fill="url(#gridPattern)"/>
+  <rect width="1200" height="320" rx="20" fill="url(#leftAmbient)"/>
+  <rect width="1200" height="320" rx="20" fill="url(#rightAmbient)"/>
 
-  <!-- Outer Neon Border Stroke -->
-  <rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="url(#accentGradient)" stroke-opacity="0.3" stroke-width="1.5"/>
+  <!-- Border -->
+  <rect x="1" y="1" width="1198" height="318" rx="19" fill="none" stroke="url(#neonGradient)" stroke-opacity="0.35" stroke-width="1.5"/>
 
-  <!-- Left Content Group -->
-  <g transform="translate(64, 44)">
-    <!-- Status / Role Pill -->
-    <g class="glowing-badge">
-      <rect x="0" y="0" width="375" height="32" rx="16" fill="#0f172a" fill-opacity="0.8" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
-      <circle cx="16" cy="16" r="4.5" fill="#22c55e"/>
-      <circle cx="16" cy="16" r="8" fill="#22c55e" fill-opacity="0.25"/>
-      <text x="32" y="20.5" fill="#e0f2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.2">SENIOR PYTHON DEVELOPER &amp; GENAI ARCHITECT</text>
-    </g>
+  <!-- ==================== LEFT COLUMN (Explicit X coords: 56..640) ==================== -->
 
-    <!-- Main Name Title -->
-    <text x="0" y="96" fill="url(#textGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="46" font-weight="800" letter-spacing="-1.2">
-      Muhammad <tspan fill="url(#accentGradient)">Noukhez</tspan>
+  <!-- Top Pill -->
+  <rect x="56" y="36" width="365" height="28" rx="14" fill="#0f172a" fill-opacity="0.85" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1"/>
+  <circle cx="72" cy="50" r="4" fill="#22c55e"/>
+  <text x="86" y="54" fill="#e0f2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">SENIOR PYTHON DEVELOPER &amp; GENAI ARCHITECT</text>
+
+  <!-- Name Title -->
+  <text x="56" y="112" fill="url(#titleGradient)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" letter-spacing="-1">
+    Muhammad <tspan fill="url(#neonGradient)">Noukhez</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="56" y="146" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="500">
+    Enterprise AI Systems • High-Throughput APIs • Scalable Web Architectures
+  </text>
+
+  <!-- Badges Row: Experience + Venture -->
+  <g transform="translate(56, 172)">
+    <!-- TCS Badge -->
+    <rect x="0" y="0" width="225" height="32" rx="7" fill="#1e293b" fill-opacity="0.75" stroke="#475569" stroke-opacity="0.6"/>
+    <text x="12" y="20.5" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">
+      💼 <tspan fill="#38bdf8" font-weight="700">7+ Years</tspan> Enterprise (TCS RnI)
     </text>
 
-    <!-- Tagline Subtitle -->
-    <text x="0" y="132" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="500">
-      Building Enterprise AI Systems, High-Performance APIs &amp; Scalable Web Architectures
+    <!-- CodeX404 Badge -->
+    <rect x="237" y="0" width="215" height="32" rx="7" fill="#1e293b" fill-opacity="0.75" stroke="#475569" stroke-opacity="0.6"/>
+    <text x="249" y="20.5" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">
+      🚀 Founder @ <tspan fill="#c084fc" font-weight="700">CodeX404</tspan>
     </text>
 
-    <!-- Enterprise Experience Highlights Row -->
-    <g transform="translate(0, 160)">
-      <!-- Experience Tag -->
-      <rect x="0" y="0" width="232" height="34" rx="8" fill="#1e293b" fill-opacity="0.7" stroke="#475569" stroke-opacity="0.5"/>
-      <text x="12" y="21.5" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">
-        💼 <tspan fill="#38bdf8" font-weight="700">7+ Years</tspan> Enterprise (TCS RnI)
-      </text>
-
-      <!-- Founder Tag -->
-      <rect x="244" y="0" width="220" height="34" rx="8" fill="#1e293b" fill-opacity="0.7" stroke="#475569" stroke-opacity="0.5"/>
-      <text x="256" y="21.5" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">
-        🚀 Founder @ <tspan fill="#c084fc" font-weight="700">CodeX404 Solutions</tspan>
-      </text>
-    </g>
-
-    <!-- Tech Stacks Pills Row -->
-    <g transform="translate(0, 212)">
-      <!-- Python -->
-      <rect x="0" y="0" width="84" height="28" rx="14" fill="#0369a1" fill-opacity="0.25" stroke="#38bdf8" stroke-opacity="0.5"/>
-      <text x="14" y="18" fill="#7dd3fc" font-family="Consolas, monospace" font-size="12" font-weight="600">Python</text>
-
-      <!-- FastAPI -->
-      <rect x="92" y="0" width="86" height="28" rx="14" fill="#047857" fill-opacity="0.25" stroke="#34d399" stroke-opacity="0.5"/>
-      <text x="106" y="18" fill="#6ee7b7" font-family="Consolas, monospace" font-size="12" font-weight="600">FastAPI</text>
-
-      <!-- Azure OpenAI -->
-      <rect x="186" y="0" width="124" height="28" rx="14" fill="#4338ca" fill-opacity="0.25" stroke="#818cf8" stroke-opacity="0.5"/>
-      <text x="198" y="18" fill="#a5b4fc" font-family="Consolas, monospace" font-size="12" font-weight="600">Azure OpenAI</text>
-
-      <!-- PyTorch & YOLO -->
-      <rect x="318" y="0" width="138" height="28" rx="14" fill="#701a75" fill-opacity="0.25" stroke="#e879f9" stroke-opacity="0.5"/>
-      <text x="330" y="18" fill="#f0abfc" font-family="Consolas, monospace" font-size="12" font-weight="600">PyTorch • YOLO</text>
-
-      <!-- Full Stack -->
-      <rect x="464" y="0" width="112" height="28" rx="14" fill="#831843" fill-opacity="0.25" stroke="#f472b6" stroke-opacity="0.5"/>
-      <text x="476" y="18" fill="#fbcfe8" font-family="Consolas, monospace" font-size="12" font-weight="600">React • Node</text>
-    </g>
-
-    <!-- Location & Open Status -->
-    <text x="0" y="268" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5">
-      📍 Kolkata, India  •  🌐 Open Worldwide  •  🤝 Contract &amp; Full-Time Opportunities
+    <!-- M.Tech Badge -->
+    <rect x="464" y="0" width="138" height="32" rx="7" fill="#1e293b" fill-opacity="0.75" stroke="#475569" stroke-opacity="0.6"/>
+    <text x="476" y="20.5" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">
+      🎓 <tspan fill="#34d399" font-weight="700">M.Tech</tspan> in CS
     </text>
   </g>
 
-  <!-- Right Futuristic Terminal Window -->
-  <g class="floating-terminal" transform="translate(740, 36)" filter="url(#neonShadow)">
-    <!-- Terminal Body -->
-    <rect width="396" height="288" rx="16" fill="url(#cardGrad)" stroke="#6366f1" stroke-opacity="0.4" stroke-width="1.2"/>
+  <!-- Tech Stack Chips Row -->
+  <g transform="translate(56, 222)">
+    <!-- Python -->
+    <rect x="0" y="0" width="76" height="26" rx="13" fill="#0369a1" fill-opacity="0.25" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="13" y="17" fill="#7dd3fc" font-family="Consolas, monospace" font-size="11.5" font-weight="600">Python</text>
 
-    <!-- Terminal Titlebar -->
-    <path d="M0 16 C0 7.16 7.16 0 16 0 L380 0 C388.84 0 396 7.16 396 16 L396 40 L0 40 Z" fill="#090d16" fill-opacity="0.9"/>
-    <line x1="0" y1="40" x2="396" y2="40" stroke="#334155" stroke-opacity="0.6"/>
+    <!-- FastAPI -->
+    <rect x="84" y="0" width="80" height="26" rx="13" fill="#047857" fill-opacity="0.25" stroke="#34d399" stroke-opacity="0.5"/>
+    <text x="98" y="17" fill="#6ee7b7" font-family="Consolas, monospace" font-size="11.5" font-weight="600">FastAPI</text>
 
-    <!-- Mac Window Control Dots -->
-    <circle cx="22" cy="20" r="5.5" fill="#ef4444"/>
-    <circle cx="40" cy="20" r="5.5" fill="#f59e0b"/>
-    <circle cx="58" cy="20" r="5.5" fill="#10b981"/>
+    <!-- Azure OpenAI -->
+    <rect x="172" y="0" width="116" height="26" rx="13" fill="#4338ca" fill-opacity="0.25" stroke="#818cf8" stroke-opacity="0.5"/>
+    <text x="184" y="17" fill="#a5b4fc" font-family="Consolas, monospace" font-size="11.5" font-weight="600">Azure OpenAI</text>
 
-    <!-- Terminal Title -->
-    <text x="198" y="24" fill="#64748b" font-family="Consolas, monospace" font-size="11.5" text-anchor="middle">noukhez@architect: ~ (python3.11)</text>
+    <!-- PyTorch -->
+    <rect x="296" y="0" width="82" height="26" rx="13" fill="#9f1239" fill-opacity="0.25" stroke="#fb7185" stroke-opacity="0.5"/>
+    <text x="310" y="17" fill="#fda4af" font-family="Consolas, monospace" font-size="11.5" font-weight="600">PyTorch</text>
 
-    <!-- Terminal Code Lines -->
-    <g transform="translate(20, 58)" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="12" line-height="1.5">
-      <!-- Line 1 -->
-      <text y="14" fill="#64748b"># Developer Profile Schema</text>
+    <!-- React -->
+    <rect x="386" y="0" width="72" height="26" rx="13" fill="#0e7490" fill-opacity="0.25" stroke="#22d3ee" stroke-opacity="0.5"/>
+    <text x="400" y="17" fill="#67e8f9" font-family="Consolas, monospace" font-size="11.5" font-weight="600">React</text>
 
-      <!-- Line 2 -->
-      <text y="36" fill="#f472b6">class <tspan fill="#38bdf8">MuhammadNoukhez</tspan>:</text>
-
-      <!-- Line 3 -->
-      <text y="58" fill="#cbd5e1">&#160;&#160;role&#160;&#160;&#160;&#160;&#160;&#160;= <tspan fill="#a5b4fc">"Senior AI &amp; Python Engineer"</tspan></text>
-
-      <!-- Line 4 -->
-      <text y="80" fill="#cbd5e1">&#160;&#160;enterprise = <tspan fill="#38bdf8">"7+ Yrs @ TCS RnI &amp; RnD"</tspan></text>
-
-      <!-- Line 5 -->
-      <text y="102" fill="#cbd5e1">&#160;&#160;venture&#160;&#160;&#160;&#160;= <tspan fill="#f472b6">"Founder @ CodeX404"</tspan></text>
-
-      <!-- Line 6 -->
-      <text y="124" fill="#cbd5e1">&#160;&#160;domains&#160;&#160;&#160;&#160;= [</text>
-      <text y="144" fill="#34d399">&#160;&#160;&#160;&#160;"FastAPI", "GenAI / RAG", "LLMs",</text>
-      <text y="164" fill="#34d399">&#160;&#160;&#160;&#160;"React", "Microservices", "Docker"</text>
-      <text y="184" fill="#cbd5e1">&#160;&#160;]</text>
-
-      <!-- Line 7 -->
-      <text y="206" fill="#cbd5e1">&#160;&#160;status&#160;&#160;&#160;&#160;&#160;= <tspan fill="#22c55e">"Ready to Deploy &amp; Scale"</tspan></text>
-
-      <!-- Line 8 with Blinking Cursor -->
-      <g transform="translate(0, 222)">
-        <text y="0" fill="#38bdf8">&gt;&gt;&gt;&#160;</text>
-        <text x="36" y="0" fill="#e2e8f0">noukhez.innovate()</text>
-        <rect x="188" y="-12" width="8" height="15" fill="#38bdf8" class="cursor"/>
-      </g>
-    </g>
+    <!-- Docker -->
+    <rect x="466" y="0" width="78" height="26" rx="13" fill="#1e3a8a" fill-opacity="0.25" stroke="#60a5fa" stroke-opacity="0.5"/>
+    <text x="479" y="17" fill="#93c5fd" font-family="Consolas, monospace" font-size="11.5" font-weight="600">Docker</text>
   </g>
+
+  <!-- Location & Availability Footnote -->
+  <text x="56" y="278" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
+    📍 Kolkata, India &#160;•&#160; 🌐 Available Worldwide &#160;•&#160; ⚡ Open to Senior AI &amp; Python Roles
+  </text>
+
+
+  <!-- ==================== RIGHT COLUMN (Strictly X=690..1144, CANNOT OVERLAP) ==================== -->
+
+  <!-- Terminal Window Background -->
+  <rect x="690" y="32" width="454" height="256" rx="14" fill="#0b0f1a" fill-opacity="0.92" stroke="#6366f1" stroke-opacity="0.35" stroke-width="1.2"/>
+
+  <!-- Titlebar -->
+  <path d="M 690 46 C 690 38.26 696.26 32 704 32 L 1130 32 C 1137.73 32 1144 38.26 1144 46 L 1144 68 L 690 68 Z" fill="#060911" fill-opacity="0.95"/>
+  <line x1="690" y1="68" x2="1144" y2="68" stroke="#334155" stroke-opacity="0.5"/>
+
+  <!-- Window Dots -->
+  <circle cx="712" cy="50" r="5" fill="#ef4444"/>
+  <circle cx="728" cy="50" r="5" fill="#f59e0b"/>
+  <circle cx="744" cy="50" r="5" fill="#10b981"/>
+
+  <!-- Tab Title -->
+  <text x="917" y="54" fill="#64748b" font-family="Consolas, monospace" font-size="11" text-anchor="middle">architect@noukhez: ~/profile.py</text>
+
+  <!-- Code Body (Fixed X coordinates) -->
+  <text x="714" y="96" fill="#64748b" font-family="'Fira Code', Consolas, monospace" font-size="12"># Enterprise AI &amp; Python Architect</text>
+  
+  <text x="714" y="118" fill="#f472b6" font-family="'Fira Code', Consolas, monospace" font-size="12.5" font-weight="600">class <tspan fill="#38bdf8">MuhammadNoukhez</tspan>:</text>
+  
+  <text x="734" y="140" fill="#94a3b8" font-family="'Fira Code', Consolas, monospace" font-size="12">role&#160;&#160;&#160;&#160;&#160;&#160;&#160;= <tspan fill="#a5b4fc">"Senior AI &amp; Python Engineer"</tspan></text>
+  <text x="734" y="162" fill="#94a3b8" font-family="'Fira Code', Consolas, monospace" font-size="12">enterprise&#160;= <tspan fill="#38bdf8">"7+ Years (TCS RnI &amp; RnD)"</tspan></text>
+  <text x="734" y="184" fill="#94a3b8" font-family="'Fira Code', Consolas, monospace" font-size="12">venture&#160;&#160;&#160;&#160;&#160;= <tspan fill="#c084fc">"Founder @ CodeX404 Solutions"</tspan></text>
+  <text x="734" y="206" fill="#94a3b8" font-family="'Fira Code', Consolas, monospace" font-size="12">core_stack&#160;= [<tspan fill="#34d399">"FastAPI"</tspan>, <tspan fill="#34d399">"Azure OpenAI"</tspan>, <tspan fill="#34d399">"React"</tspan>]</text>
+  <text x="734" y="228" fill="#94a3b8" font-family="'Fira Code', Consolas, monospace" font-size="12">mission&#160;&#160;&#160;&#160;= <tspan fill="#facc15">"Building resilient scalable AI"</tspan></text>
+
+  <!-- Prompt line -->
+  <text x="714" y="260" fill="#38bdf8" font-family="'Fira Code', Consolas, monospace" font-size="12">&gt;&gt;&gt;&#160;</text>
+  <text x="746" y="260" fill="#e2e8f0" font-family="'Fira Code', Consolas, monospace" font-size="12">noukhez.build_future()</text>
+  <rect x="918" y="249" width="8" height="14" fill="#38bdf8" class="cursor-blink"/>
+
 </svg>
