@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Muhammad Noukhez — Python, AI and software</title>
+  <desc id="desc">A dark navy technology banner with a glowing blue-violet gradient, abstract connected nodes, and a terminal-inspired monogram.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset=".58" stop-color="#111a32"/>
+      <stop offset="1" stop-color="#17152d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#53d8fb"/>
+      <stop offset=".52" stop-color="#7c8cff"/>
+      <stop offset="1" stop-color="#b28dff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(940 174) rotate(90) scale(240 270)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#766cff" stop-opacity=".27"/>
+      <stop offset="1" stop-color="#766cff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#a7b7ff" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="340" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="26" fill="url(#grid)"/>
+  <rect width="1200" height="340" rx="26" fill="url(#glow)"/>
+  <path d="M24 1h1152a24 24 0 0 1 24 24v291a24 24 0 0 1-24 24H24A24 24 0 0 1 0 316V25A24 24 0 0 1 24 1Z" fill="none" stroke="#8ca0ff" stroke-opacity=".2"/>
+  <rect x="70" y="54" width="252" height="31" rx="15.5" fill="#182541" stroke="#7185c7" stroke-opacity=".35"/>
+  <circle cx="91" cy="69.5" r="4" fill="#55d8fb"/>
+  <text x="106" y="74" fill="#b9c8f4" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.9">SOFTWARE · AI · AUTOMATION</text>
+  <text x="68" y="157" fill="#f4f7ff" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="-1.7">Muhammad</text>
+  <text x="68" y="223" fill="url(#accent)" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-2">Noukhez</text>
+  <rect x="72" y="253" width="44" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="128" y="259" fill="#a9b6d5" font-family="Segoe UI, Arial, sans-serif" font-size="16">Building useful things with Python and machine learning.</text>
+  <g transform="translate(785 52)">
+    <rect width="342" height="236" rx="18" fill="#0a1020" fill-opacity=".78" stroke="#94a6ff" stroke-opacity=".28"/>
+    <path d="M0 47h342" stroke="#94a6ff" stroke-opacity=".2"/>
+    <circle cx="24" cy="24" r="5" fill="#ff7b83"/>
+    <circle cx="43" cy="24" r="5" fill="#ffd166"/>
+    <circle cx="62" cy="24" r="5" fill="#65d69a"/>
+    <text x="26" y="91" fill="#7d8dae" font-family="Consolas, monospace" font-size="15">$</text>
+    <text x="50" y="91" fill="#69d8fa" font-family="Consolas, monospace" font-size="15">python</text>
+    <text x="26" y="127" fill="#b6c4e5" font-family="Consolas, monospace" font-size="15">build(</text>
+    <text x="89" y="127" fill="#c6a5ff" font-family="Consolas, monospace" font-size="15">ideas</text>
+    <text x="142" y="127" fill="#b6c4e5" font-family="Consolas, monospace" font-size="15">, with=</text>
+    <text x="210" y="127" fill="#8ce3b0" font-family="Consolas, monospace" font-size="15">curiosity</text>
+    <text x="298" y="127" fill="#b6c4e5" font-family="Consolas, monospace" font-size="15">)</text>
+    <text x="26" y="163" fill="#b6c4e5" font-family="Consolas, monospace" font-size="15">ship(</text>
+    <text x="80" y="163" fill="#8ce3b0" font-family="Consolas, monospace" font-size="15">something useful</text>
+    <text x="232" y="163" fill="#b6c4e5" font-family="Consolas, monospace" font-size="15">)</text>
+    <rect x="26" y="194" width="9" height="17" rx="2" fill="#72d9fa"/>
+    <text x="48" y="208" fill="#7888a9" font-family="Consolas, monospace" font-size="13">ready when you are_</text>
+  </g>
+</svg>
