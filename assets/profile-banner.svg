@@ -1,168 +1,396 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-  <title id="title">Muhammad Noukhez — Founder @ CodeX404 Solutions | Senior Python &amp; GenAI Architect</title>
-  <desc id="desc">Executive developer banner for Muhammad Noukhez featuring 7+ years enterprise tenure at TCS RnI and Founder of CodeX404 Solutions.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1200 440" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Muhammad Noukhez — Founder @ CodeX404 Solutions | Senior Python &amp; GenAI Architect</title>
+  <desc id="bannerDesc">Interactive animated executive banner with slide carousel, flowing color gradients, and enterprise software pedigree.</desc>
 
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="canvasBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060912"/>
-      <stop offset="50%" stop-color="#0b1222"/>
-      <stop offset="100%" stop-color="#140f2b"/>
+    <!-- Background Canvas Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="40%" stop-color="#0a1026"/>
+      <stop offset="75%" stop-color="#120e2e"/>
+      <stop offset="100%" stop-color="#070c1d"/>
     </linearGradient>
 
-    <!-- Neon Accents -->
-    <linearGradient id="neonGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="45%" stop-color="#818cf8"/>
-      <stop offset="80%" stop-color="#c084fc"/>
-      <stop offset="100%" stop-color="#f472b6"/>
+    <!-- Animated Neon Border Gradient -->
+    <linearGradient id="neonBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8; #818cf8; #c084fc; #f43f5e; #38bdf8" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="35%" stop-color="#818cf8">
+        <animate attributeName="stop-color" values="#818cf8; #c084fc; #f43f5e; #38bdf8; #818cf8" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="70%" stop-color="#c084fc">
+        <animate attributeName="stop-color" values="#c084fc; #f43f5e; #38bdf8; #818cf8; #c084fc" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#06b6d4">
+        <animate attributeName="stop-color" values="#06b6d4; #38bdf8; #818cf8; #c084fc; #06b6d4" dur="8s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
 
-    <!-- Text Shimmer -->
-    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="70%" stop-color="#f1f5f9"/>
-      <stop offset="100%" stop-color="#93c5fd"/>
+    <!-- Flowing Colorful Text Gradient -->
+    <linearGradient id="vividNameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#a855f7;#ec4899;#38bdf8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#818cf8">
+        <animate attributeName="stop-color" values="#818cf8;#f43f5e;#3b82f6;#818cf8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#c084fc">
+        <animate attributeName="stop-color" values="#c084fc;#06b6d4;#a855f7;#c084fc" dur="6s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
 
-    <!-- Radial Ambient Glows -->
-    <radialGradient id="leftAmbient" cx="18%" cy="40%" r="50%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2"/>
+    <!-- Radial Ambient Orbs -->
+    <radialGradient id="glowLeft" cx="15%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.32"/>
+      <stop offset="60%" stop-color="#38bdf8" stop-opacity="0.05"/>
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </radialGradient>
 
-    <radialGradient id="rightAmbient" cx="86%" cy="50%" r="55%">
-      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.22"/>
-      <stop offset="60%" stop-color="#c084fc" stop-opacity="0.08"/>
+    <radialGradient id="glowRight" cx="85%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#c084fc" stop-opacity="0.1"/>
       <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Grid Pattern -->
-    <pattern id="gridPattern" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#6366f1" stroke-opacity="0.08" stroke-width="1"/>
-      <circle cx="36" cy="36" r="1.2" fill="#38bdf8" fill-opacity="0.15"/>
+    <!-- Cyber Tech Grid Pattern -->
+    <pattern id="cyberGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#6366f1" stroke-opacity="0.08" stroke-width="0.8"/>
+      <circle cx="32" cy="32" r="1.1" fill="#38bdf8" fill-opacity="0.2"/>
     </pattern>
 
+    <!-- Slider Clipping Mask for Right Terminal -->
+    <clipPath id="sliderClip">
+      <rect x="670" y="78" width="480" height="290" rx="0"/>
+    </clipPath>
+
     <style>
-      @keyframes blink { 0%, 45% { opacity: 1; } 50%, 100% { opacity: 0; } }
-      .cursor-blink { animation: blink 1.1s infinite; }
+      /* Base typography */
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: 'Fira Code', 'SF Mono', Consolas, Monaco, monospace; }
+
+      /* Keyframes */
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.9; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(0.96); }
+      }
+      .pulse-indicator { animation: pulseGlow 2.4s infinite ease-in-out; transform-origin: 70px 48px; }
+
+      @keyframes cursorBlink {
+        0%, 45% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .cursor-blink { animation: cursorBlink 0.9s infinite; }
+
+      /* Dynamic Carousel Slider Animation (3 Slides) */
+      @keyframes carouselSlide {
+        0%, 28% {
+          transform: translateY(0px);
+          opacity: 1;
+        }
+        33% {
+          transform: translateY(-290px);
+          opacity: 0.2;
+        }
+        36%, 61% {
+          transform: translateY(-290px);
+          opacity: 1;
+        }
+        66% {
+          transform: translateY(-580px);
+          opacity: 0.2;
+        }
+        69%, 95% {
+          transform: translateY(-580px);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(0px);
+          opacity: 1;
+        }
+      }
+      .carousel-container {
+        animation: carouselSlide 15s infinite cubic-bezier(0.65, 0, 0.35, 1);
+      }
+
+      /* Sliding Active Tab Indicators */
+      @keyframes tabHighlight1 {
+        0%, 28%, 100% { opacity: 1; fill: #38bdf8; }
+        33%, 95% { opacity: 0.3; fill: #64748b; }
+      }
+      @keyframes tabHighlight2 {
+        0%, 28% { opacity: 0.3; fill: #64748b; }
+        33%, 61% { opacity: 1; fill: #c084fc; }
+        66%, 100% { opacity: 0.3; fill: #64748b; }
+      }
+      @keyframes tabHighlight3 {
+        0%, 61% { opacity: 0.3; fill: #64748b; }
+        66%, 95% { opacity: 1; fill: #34d399; }
+        100% { opacity: 0.3; fill: #64748b; }
+      }
+      .tab-1 { animation: tabHighlight1 15s infinite; }
+      .tab-2 { animation: tabHighlight2 15s infinite; }
+      .tab-3 { animation: tabHighlight3 15s infinite; }
+
+      /* Floating Ambient Tech Particles */
+      @keyframes floatParticle1 {
+        0% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+        50% { transform: translateY(-16px) translateX(8px); opacity: 0.8; }
+        100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+      }
+      @keyframes floatParticle2 {
+        0% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
+        50% { transform: translateY(18px) translateX(-10px); opacity: 0.7; }
+        100% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
+      }
+      .float-1 { animation: floatParticle1 6s infinite ease-in-out; }
+      .float-2 { animation: floatParticle2 7s infinite ease-in-out; }
     </style>
   </defs>
 
-  <!-- Base Canvas -->
-  <rect width="1200" height="340" rx="20" fill="url(#canvasBg)"/>
-  <rect width="1200" height="340" rx="20" fill="url(#gridPattern)"/>
-  <rect width="1200" height="340" rx="20" fill="url(#leftAmbient)"/>
-  <rect width="1200" height="340" rx="20" fill="url(#rightAmbient)"/>
+  <!-- ==================== BACKGROUND & CANVAS ==================== -->
+  <rect width="1200" height="440" rx="22" fill="url(#bgGradient)"/>
+  <rect width="1200" height="440" rx="22" fill="url(#cyberGrid)"/>
+  <rect width="1200" height="440" rx="22" fill="url(#glowLeft)"/>
+  <rect width="1200" height="440" rx="22" fill="url(#glowRight)"/>
 
-  <!-- Border -->
-  <rect x="1" y="1" width="1198" height="338" rx="19" fill="none" stroke="url(#neonGradient)" stroke-opacity="0.35" stroke-width="1.5"/>
+  <!-- Floating Constellation Ambient Sparkles -->
+  <g class="float-1">
+    <circle cx="140" cy="110" r="2" fill="#38bdf8" fill-opacity="0.6"/>
+    <circle cx="580" cy="90" r="2.5" fill="#818cf8" fill-opacity="0.5"/>
+    <circle cx="620" cy="380" r="1.8" fill="#c084fc" fill-opacity="0.6"/>
+    <circle cx="1120" cy="30" r="2.2" fill="#38bdf8" fill-opacity="0.7"/>
+  </g>
+  <g class="float-2">
+    <circle cx="380" cy="390" r="2.2" fill="#34d399" fill-opacity="0.5"/>
+    <circle cx="80" cy="340" r="1.8" fill="#f472b6" fill-opacity="0.6"/>
+    <circle cx="640" cy="220" r="2.5" fill="#38bdf8" fill-opacity="0.4"/>
+  </g>
 
-  <!-- ==================== LEFT COLUMN (Explicit X coords: 54..640) ==================== -->
+  <!-- Outer Animated Border -->
+  <rect x="2" y="2" width="1196" height="436" rx="21" fill="none" stroke="url(#neonBorderGrad)" stroke-width="1.8" stroke-opacity="0.75"/>
 
-  <!-- Top Pill -->
-  <rect x="54" y="34" width="418" height="28" rx="14" fill="#0f172a" fill-opacity="0.88" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1"/>
-  <circle cx="70" cy="48" r="4.5" fill="#22c55e"/>
-  <text x="84" y="52" fill="#e0f2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">FOUNDER @ CODEX404 • SENIOR AI &amp; PYTHON ARCHITECT</text>
+  <!-- ==================== LEFT COLUMN: EXECUTIVE PERSONA & SPECS ==================== -->
 
-  <!-- Name Title -->
-  <text x="54" y="108" fill="url(#titleGradient)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" letter-spacing="-1">
-    Muhammad <tspan fill="url(#neonGradient)">Noukhez</tspan>
+  <!-- Status Badge with live pulsing emerald light -->
+  <g transform="translate(50, 36)">
+    <rect x="0" y="0" width="460" height="30" rx="15" fill="#0d1527" fill-opacity="0.88" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
+    <circle class="pulse-indicator" cx="18" cy="15" r="5" fill="#22c55e"/>
+    <circle cx="18" cy="15" r="2.5" fill="#bbf7d0"/>
+    <text x="32" y="19" fill="#e0f2fe" class="font-sans" font-size="11" font-weight="700" letter-spacing="1">FOUNDER @ CODEX404 • SENIOR AI &amp; PYTHON ARCHITECT</text>
+  </g>
+
+  <!-- Master Headline Name with Animated Multi-Color Shimmer -->
+  <text x="50" y="118" fill="#ffffff" class="font-sans" font-size="46" font-weight="800" letter-spacing="-1">
+    Muhammad <tspan fill="url(#vividNameGrad)">Noukhez</tspan>
   </text>
 
-  <!-- Subtitle -->
-  <text x="54" y="140" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500">
-    Software &amp; AI that moves business forward • Where Bugs Meet Their Match
+  <!-- Tagline / Dynamic Subtitle -->
+  <text x="50" y="152" fill="#94a3b8" class="font-sans" font-size="15" font-weight="500">
+    Architecting Autonomous AI, Enterprise Systems &amp; Resilient Cloud Backends
   </text>
 
-  <!-- Badges Row: TCS Enterprise + CodeX404 + M.Tech -->
-  <g transform="translate(54, 166)">
-    <!-- TCS Badge -->
-    <rect x="0" y="0" width="225" height="32" rx="7" fill="#1e293b" fill-opacity="0.75" stroke="#475569" stroke-opacity="0.6"/>
-    <text x="12" y="20.5" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600">
-      💼 <tspan fill="#38bdf8" font-weight="700">7+ Years</tspan> Enterprise (TCS RnI)
+  <!-- Career Milestones Pill Badges -->
+  <g transform="translate(50, 180)">
+    <!-- TCS Enterprise -->
+    <rect x="0" y="0" width="220" height="34" rx="8" fill="#131d36" fill-opacity="0.8" stroke="#3b82f6" stroke-opacity="0.4"/>
+    <text x="12" y="22" fill="#f8fafc" class="font-sans" font-size="12" font-weight="600">
+      💼 <tspan fill="#38bdf8" font-weight="700">7+ Years</tspan> TCS RnI &amp; RnD
     </text>
 
-    <!-- CodeX404 Badge -->
-    <rect x="235" y="0" width="230" height="32" rx="7" fill="#1e293b" fill-opacity="0.75" stroke="#6366f1" stroke-opacity="0.6"/>
-    <text x="247" y="20.5" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600">
-      🚀 Founder &amp; CEO @ <tspan fill="#c084fc" font-weight="700">CodeX404</tspan>
+    <!-- CodeX404 Founder -->
+    <rect x="230" y="0" width="228" height="34" rx="8" fill="#1e1838" fill-opacity="0.8" stroke="#8b5cf6" stroke-opacity="0.45"/>
+    <text x="242" y="22" fill="#f8fafc" class="font-sans" font-size="12" font-weight="600">
+      🚀 Founder @ <tspan fill="#c084fc" font-weight="700">CodeX404 Solutions</tspan>
     </text>
 
-    <!-- M.Tech Badge -->
-    <rect x="475" y="0" width="134" height="32" rx="7" fill="#1e293b" fill-opacity="0.75" stroke="#475569" stroke-opacity="0.6"/>
-    <text x="487" y="20.5" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600">
+    <!-- M.Tech Degree -->
+    <rect x="468" y="0" width="128" height="34" rx="8" fill="#0f2923" fill-opacity="0.75" stroke="#10b981" stroke-opacity="0.4"/>
+    <text x="479" y="22" fill="#f8fafc" class="font-sans" font-size="12" font-weight="600">
       🎓 <tspan fill="#34d399" font-weight="700">M.Tech</tspan> in CS
     </text>
   </g>
 
-  <!-- Tech Stack Chips Row -->
-  <g transform="translate(54, 214)">
-    <!-- Python -->
-    <rect x="0" y="0" width="76" height="26" rx="13" fill="#0369a1" fill-opacity="0.25" stroke="#38bdf8" stroke-opacity="0.5"/>
-    <text x="13" y="17" fill="#7dd3fc" font-family="Consolas, monospace" font-size="11.5" font-weight="600">Python</text>
-
-    <!-- FastAPI -->
-    <rect x="84" y="0" width="80" height="26" rx="13" fill="#047857" fill-opacity="0.25" stroke="#34d399" stroke-opacity="0.5"/>
-    <text x="98" y="17" fill="#6ee7b7" font-family="Consolas, monospace" font-size="11.5" font-weight="600">FastAPI</text>
-
-    <!-- Azure OpenAI -->
-    <rect x="172" y="0" width="116" height="26" rx="13" fill="#4338ca" fill-opacity="0.25" stroke="#818cf8" stroke-opacity="0.5"/>
-    <text x="184" y="17" fill="#a5b4fc" font-family="Consolas, monospace" font-size="11.5" font-weight="600">Azure OpenAI</text>
-
-    <!-- AI Agents -->
-    <rect x="296" y="0" width="102" height="26" rx="13" fill="#701a75" fill-opacity="0.25" stroke="#e879f9" stroke-opacity="0.5"/>
-    <text x="309" y="17" fill="#f0abfc" font-family="Consolas, monospace" font-size="11.5" font-weight="600">RAG &amp; Agents</text>
-
-    <!-- React -->
-    <rect x="406" y="0" width="72" height="26" rx="13" fill="#0e7490" fill-opacity="0.25" stroke="#22d3ee" stroke-opacity="0.5"/>
-    <text x="420" y="17" fill="#67e8f9" font-family="Consolas, monospace" font-size="11.5" font-weight="600">React</text>
-
-    <!-- Docker -->
-    <rect x="486" y="0" width="78" height="26" rx="13" fill="#1e3a8a" fill-opacity="0.25" stroke="#60a5fa" stroke-opacity="0.5"/>
-    <text x="499" y="17" fill="#93c5fd" font-family="Consolas, monospace" font-size="11.5" font-weight="600">Docker</text>
+  <!-- Engineering Value Pillars / Guarantees -->
+  <g transform="translate(50, 234)">
+    <rect x="0" y="0" width="546" height="54" rx="10" fill="#0c1324" fill-opacity="0.85" stroke="#334155" stroke-width="1"/>
+    
+    <text x="16" y="24" fill="#38bdf8" class="font-mono" font-size="11.5" font-weight="700">CORE GUARANTEE:</text>
+    <text x="146" y="24" fill="#f1f5f9" class="font-sans" font-size="12" font-weight="600">Deterministic Zero Defects • Zero Downtime</text>
+    
+    <text x="16" y="44" fill="#a78bfa" class="font-mono" font-size="11.5" font-weight="700">OWNERSHIP:</text>
+    <text x="104" y="44" fill="#cbd5e1" class="font-sans" font-size="12" font-weight="500">100% Client Intellectual Property &amp; Modular Code</text>
   </g>
 
-  <!-- Location & Global Reach Footnote -->
-  <text x="54" y="274" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
-    📍 Kolkata, India &#160;•&#160; 🌐 Serving Global Clients (US, UK, UAE, IN, CA) &#160;•&#160; ⚡ 0 Bugs • Zero Lock-in
-  </text>
-  <text x="54" y="298" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5">
-    🔗 codex404solutions.online &#160;•&#160; linkedin.com/in/mnoukhej &#160;•&#160; github.com/codex404solutions
-  </text>
+  <!-- Tech Stack Chips Row -->
+  <g transform="translate(50, 308)">
+    <!-- Python -->
+    <rect x="0" y="0" width="80" height="28" rx="14" fill="#0284c7" fill-opacity="0.2" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="14" y="18.5" fill="#7dd3fc" class="font-mono" font-size="11.5" font-weight="600">Python</text>
 
-  <!-- ==================== RIGHT COLUMN (Strictly X=686..1148, Isolated) ==================== -->
+    <!-- FastAPI -->
+    <rect x="88" y="0" width="84" height="28" rx="14" fill="#059669" fill-opacity="0.2" stroke="#34d399" stroke-opacity="0.5"/>
+    <text x="102" y="18.5" fill="#6ee7b7" class="font-mono" font-size="11.5" font-weight="600">FastAPI</text>
 
-  <!-- Terminal Window Background -->
-  <rect x="686" y="32" width="462" height="274" rx="14" fill="#0b0f1a" fill-opacity="0.92" stroke="#6366f1" stroke-opacity="0.35" stroke-width="1.2"/>
+    <!-- Azure OpenAI -->
+    <rect x="180" y="0" width="124" height="28" rx="14" fill="#4f46e5" fill-opacity="0.2" stroke="#818cf8" stroke-opacity="0.5"/>
+    <text x="194" y="18.5" fill="#a5b4fc" class="font-mono" font-size="11.5" font-weight="600">Azure OpenAI</text>
 
-  <!-- Titlebar -->
-  <path d="M 686 46 C 686 38.26 692.26 32 700 32 L 1134 32 C 1141.73 32 1148 38.26 1148 46 L 1148 68 L 686 68 Z" fill="#060911" fill-opacity="0.95"/>
-  <line x1="686" y1="68" x2="1148" y2="68" stroke="#334155" stroke-opacity="0.5"/>
+    <!-- AI Agents -->
+    <rect x="312" y="0" width="112" height="28" rx="14" fill="#9333ea" fill-opacity="0.2" stroke="#c084fc" stroke-opacity="0.5"/>
+    <text x="325" y="18.5" fill="#e9d5ff" class="font-mono" font-size="11.5" font-weight="600">RAG &amp; Agents</text>
 
-  <!-- Window Dots -->
-  <circle cx="708" cy="50" r="5" fill="#ef4444"/>
-  <circle cx="724" cy="50" r="5" fill="#f59e0b"/>
-  <circle cx="740" cy="50" r="5" fill="#10b981"/>
+    <!-- Docker -->
+    <rect x="432" y="0" width="80" height="28" rx="14" fill="#0284c7" fill-opacity="0.2" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="446" y="18.5" fill="#7dd3fc" class="font-mono" font-size="11.5" font-weight="600">Docker</text>
 
-  <!-- Tab Title -->
-  <text x="917" y="54" fill="#64748b" font-family="Consolas, monospace" font-size="11" text-anchor="middle">noukhez@codex404: ~/architect.py</text>
+    <!-- React -->
+    <rect x="520" y="0" width="76" height="28" rx="14" fill="#0891b2" fill-opacity="0.2" stroke="#22d3ee" stroke-opacity="0.5"/>
+    <text x="536" y="18.5" fill="#67e8f9" class="font-mono" font-size="11.5" font-weight="600">React</text>
+  </g>
 
-  <!-- Code Body (Fixed X coordinates) -->
-  <text x="710" y="96" fill="#64748b" font-family="'Fira Code', Consolas, monospace" font-size="11.5"># Enterprise Architecture &amp; Venture Profile</text>
-  
-  <text x="710" y="118" fill="#f472b6" font-family="'Fira Code', Consolas, monospace" font-size="12" font-weight="600">class <tspan fill="#38bdf8">MuhammadNoukhez</tspan>:</text>
-  
-  <text x="728" y="140" fill="#94a3b8" font-family="'Fira Code', Consolas, monospace" font-size="11.5">founder&#160;&#160;&#160;&#160;= <tspan fill="#c084fc">"Founder &amp; CEO @ CodeX404 Solutions"</tspan></text>
-  <text x="728" y="162" fill="#94a3b8" font-family="'Fira Code', Consolas, monospace" font-size="11.5">enterprise&#160;= <tspan fill="#38bdf8">"7+ Years (TCS RnI &amp; RnD Teams)"</tspan></text>
-  <text x="728" y="184" fill="#94a3b8" font-family="'Fira Code', Consolas, monospace" font-size="11.5">domains&#160;&#160;&#160;&#160;= [<tspan fill="#34d399">"GenAI &amp; RAG"</tspan>, <tspan fill="#34d399">"AI Agents"</tspan>, <tspan fill="#34d399">"FastAPI"</tspan>]</text>
-  <text x="728" y="206" fill="#94a3b8" font-family="'Fira Code', Consolas, monospace" font-size="11.5">philosophy&#160;= <tspan fill="#facc15">"Where Bugs Meet Their Match (0 Bugs)"</tspan></text>
-  <text x="728" y="228" fill="#94a3b8" font-family="'Fira Code', Consolas, monospace" font-size="11.5">guarantee&#160;&#160;= <tspan fill="#38bdf8">"100% Senior Direct Eng &amp; Zero Lock-in"</tspan></text>
-  <text x="728" y="250" fill="#94a3b8" font-family="'Fira Code', Consolas, monospace" font-size="11.5">reach_out&#160;&#160;= <tspan fill="#a5b4fc">"contact@codex404solutions.online"</tspan></text>
+  <!-- Location & Global Touchpoints Footnote -->
+  <g transform="translate(50, 368)">
+    <text x="0" y="0" fill="#64748b" class="font-sans" font-size="12">
+      📍 Kolkata, India &#160;•&#160; 🌐 Serving Global Clients (US, UK, UAE, IN, CA, AU)
+    </text>
+    <text x="0" y="24" fill="#38bdf8" class="font-sans" font-size="12" font-weight="600">
+      🔗 codex404solutions.online &#160;•&#160; <tspan fill="#94a3b8">linkedin.com/in/mnoukhej</tspan> &#160;•&#160; <tspan fill="#c084fc">github.com/codex404solutions</tspan>
+    </text>
+  </g>
 
-  <!-- Prompt line -->
-  <text x="710" y="280" fill="#38bdf8" font-family="'Fira Code', Consolas, monospace" font-size="12">&gt;&gt;&gt;&#160;</text>
-  <text x="742" y="280" fill="#e2e8f0" font-family="'Fira Code', Consolas, monospace" font-size="12">codex404.deploy_system()</text>
-  <rect x="946" y="269" width="8" height="14" fill="#38bdf8" class="cursor-blink"/>
+  <!-- ==================== RIGHT COLUMN: DYNAMIC SLIDER CAROUSEL ==================== -->
+
+  <!-- Terminal Window Shell -->
+  <g id="terminalWindow">
+    <!-- Window Base Frame -->
+    <rect x="660" y="36" width="490" height="364" rx="16" fill="#090d18" fill-opacity="0.94" stroke="#6366f1" stroke-opacity="0.38" stroke-width="1.4"/>
+    
+    <!-- Titlebar -->
+    <path d="M 660 52 C 660 43.16 667.16 36 676 36 L 1134 36 C 1142.84 36 1150 43.16 1150 52 L 1150 78 L 660 78 Z" fill="#05070e" fill-opacity="0.96"/>
+    <line x1="660" y1="78" x2="1150" y2="78" stroke="#1e293b" stroke-width="1.2"/>
+
+    <!-- Traffic Lights -->
+    <circle cx="682" cy="57" r="5.5" fill="#ef4444"/>
+    <circle cx="700" cy="57" r="5.5" fill="#f59e0b"/>
+    <circle cx="718" cy="57" r="5.5" fill="#10b981"/>
+
+    <!-- Sliding Tabs Header Indicators -->
+    <g transform="translate(744, 46)">
+      <!-- Tab 1 -->
+      <text x="0" y="15" class="font-mono tab-1" font-size="11" font-weight="700">● 1. Architect.py</text>
+      <!-- Tab 2 -->
+      <text x="120" y="15" class="font-mono tab-2" font-size="11" font-weight="700">● 2. AgenticRAG.ai</text>
+      <!-- Tab 3 -->
+      <text x="254" y="15" class="font-mono tab-3" font-size="11" font-weight="700">● 3. Metrics.live</text>
+    </g>
+
+    <!-- Content Slider Clipped Viewport (Height: 290px per slide) -->
+    <g clip-path="url(#sliderClip)">
+      <g class="carousel-container">
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0; 0 0; 0 -290; 0 -290; 0 -580; 0 -580; 0 0"
+          keyTimes="0; 0.28; 0.33; 0.61; 0.66; 0.95; 1"
+          dur="15s"
+          repeatCount="indefinite"
+        />
+
+        <!-- ==================== SLIDE 1: Architect Profile ==================== -->
+        <g id="slide1" transform="translate(680, 86)">
+          <text x="0" y="24" fill="#64748b" class="font-mono" font-size="11.5"># Enterprise Architecture Profile</text>
+          
+          <text x="0" y="48" fill="#f472b6" class="font-mono" font-size="13" font-weight="700">class <tspan fill="#38bdf8">MuhammadNoukhez</tspan>:</text>
+          
+          <text x="20" y="74" fill="#94a3b8" class="font-mono" font-size="12">founder    = <tspan fill="#c084fc">"Founder &amp; CEO @ CodeX404"</tspan></text>
+          <text x="20" y="98" fill="#94a3b8" class="font-mono" font-size="12">enterprise = <tspan fill="#38bdf8">"7+ Years (TCS RnI &amp; RnD)"</tspan></text>
+          <text x="20" y="122" fill="#94a3b8" class="font-mono" font-size="12">stack      = [<tspan fill="#34d399">"Python"</tspan>, <tspan fill="#34d399">"Azure OpenAI"</tspan>, <tspan fill="#34d399">"FastAPI"</tspan>]</text>
+          <text x="20" y="146" fill="#94a3b8" class="font-mono" font-size="12">mission    = <tspan fill="#facc15">"Where Bugs Meet Their Match"</tspan></text>
+          <text x="20" y="170" fill="#94a3b8" class="font-mono" font-size="12">guarantee  = <tspan fill="#38bdf8">"0 Bugs • 100% IP • Zero Lock-in"</tspan></text>
+          <text x="20" y="194" fill="#94a3b8" class="font-mono" font-size="12">contact    = <tspan fill="#a5b4fc">"contact@codex404solutions.online"</tspan></text>
+
+          <!-- Prompt Line -->
+          <g transform="translate(0, 230)">
+            <rect x="0" y="0" width="450" height="34" rx="8" fill="#0f172a" fill-opacity="0.9" stroke="#334155"/>
+            <text x="12" y="22" fill="#38bdf8" class="font-mono" font-size="12">&gt;&gt;&gt;&#160;</text>
+            <text x="44" y="22" fill="#e2e8f0" class="font-mono" font-size="12">noukhez.build_enterprise_ai()</text>
+            <rect x="290" y="11" width="8" height="15" fill="#38bdf8" class="cursor-blink"/>
+          </g>
+        </g>
+
+        <!-- ==================== SLIDE 2: Agentic RAG System ==================== -->
+        <g id="slide2" transform="translate(680, 376)">
+          <text x="0" y="24" fill="#64748b" class="font-mono" font-size="11.5"># Autonomous Multi-Agent &amp; Private RAG Engine</text>
+          
+          <text x="0" y="48" fill="#c084fc" class="font-mono" font-size="13" font-weight="700">async def <tspan fill="#38bdf8">orchestrate_workflow</tspan>(query):</text>
+          
+          <text x="20" y="74" fill="#94a3b8" class="font-mono" font-size="12">embeddings = <tspan fill="#34d399">await</tspan> azure_openai.embed(query)</text>
+          <text x="20" y="98" fill="#94a3b8" class="font-mono" font-size="12">knowledge  = <tspan fill="#34d399">await</tspan> qdrant.hybrid_search(embeddings)</text>
+          <text x="20" y="122" fill="#94a3b8" class="font-mono" font-size="12">agent_plan = <tspan fill="#34d399">await</tspan> planner_agent.reason(knowledge)</text>
+          <text x="20" y="146" fill="#94a3b8" class="font-mono" font-size="12">response   = <tspan fill="#34d399">await</tspan> execution_agent.dispatch(agent_plan)</text>
+          <text x="20" y="170" fill="#f43f5e" class="font-mono" font-size="12">return <tspan fill="#f1f5f9">{ "status": "VERIFIED_0_DEFECTS", "p99": "42ms" }</tspan></text>
+
+          <!-- Status badge bar -->
+          <g transform="translate(0, 206)">
+            <rect x="0" y="0" width="450" height="48" rx="8" fill="#1e1b4b" fill-opacity="0.8" stroke="#818cf8" stroke-opacity="0.5"/>
+            <text x="14" y="20" fill="#a5b4fc" class="font-mono" font-size="11" font-weight="700">⚡ AGENTIC PIPELINE STATUS: ONLINE</text>
+            <text x="14" y="38" fill="#f8fafc" class="font-sans" font-size="11.5">Active RAG • Tool Calling • Deterministic Guardrails</text>
+          </g>
+        </g>
+
+        <!-- ==================== SLIDE 3: Live Pedigree & Metrics ==================== -->
+        <g id="slide3" transform="translate(680, 666)">
+          <text x="0" y="24" fill="#64748b" class="font-mono" font-size="11.5"># Enterprise Reliability &amp; Production Track Record</text>
+          
+          <!-- Metric Card 1 -->
+          <g transform="translate(0, 42)">
+            <rect x="0" y="0" width="218" height="66" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.4"/>
+            <text x="14" y="26" fill="#38bdf8" class="font-sans" font-size="20" font-weight="800">7+ Years</text>
+            <text x="14" y="48" fill="#94a3b8" class="font-sans" font-size="11" font-weight="600">TCS Enterprise Tenure (RnI)</text>
+          </g>
+
+          <!-- Metric Card 2 -->
+          <g transform="translate(232, 42)">
+            <rect x="0" y="0" width="218" height="66" rx="8" fill="#0f172a" stroke="#10b981" stroke-opacity="0.4"/>
+            <text x="14" y="26" fill="#34d399" class="font-sans" font-size="20" font-weight="800">99.99%</text>
+            <text x="14" y="48" fill="#94a3b8" class="font-sans" font-size="11" font-weight="600">Enterprise SLA Adherence</text>
+          </g>
+
+          <!-- Metric Card 3 -->
+          <g transform="translate(0, 120)">
+            <rect x="0" y="0" width="218" height="66" rx="8" fill="#0f172a" stroke="#c084fc" stroke-opacity="0.4"/>
+            <text x="14" y="26" fill="#c084fc" class="font-sans" font-size="20" font-weight="800">25,000+</text>
+            <text x="14" y="48" fill="#94a3b8" class="font-sans" font-size="11" font-weight="600">Peak Visits (Insan Clg Portal)</text>
+          </g>
+
+          <!-- Metric Card 4 -->
+          <g transform="translate(232, 120)">
+            <rect x="0" y="0" width="218" height="66" rx="8" fill="#0f172a" stroke="#f43f5e" stroke-opacity="0.4"/>
+            <text x="14" y="26" fill="#f43f5e" class="font-sans" font-size="20" font-weight="800">0 Bugs</text>
+            <text x="14" y="48" fill="#94a3b8" class="font-sans" font-size="11" font-weight="600">Deterministic Guarantee</text>
+          </g>
+
+          <!-- Global Footprint Banner -->
+          <g transform="translate(0, 198)">
+            <rect x="0" y="0" width="450" height="34" rx="8" fill="#022c22" fill-opacity="0.75" stroke="#059669" stroke-opacity="0.6"/>
+            <text x="14" y="22" fill="#6ee7b7" class="font-sans" font-size="11.5" font-weight="600">
+              🌍 Global Delivery: USA • UK • UAE • Saudi Arabia • Canada • India
+            </text>
+          </g>
+        </g>
+
+      </g>
+    </g>
+
+    <!-- Bottom Status Bar -->
+    <g transform="translate(660, 368)">
+      <rect x="0" y="0" width="490" height="32" rx="0" fill="#050811" fill-opacity="0.95"/>
+      <line x1="0" y1="0" x2="490" y2="0" stroke="#1e293b"/>
+      <circle cx="18" cy="16" r="3.5" fill="#38bdf8"/>
+      <text x="30" y="20" fill="#94a3b8" class="font-mono" font-size="10.5">AUTONOMOUS SLIDER ENGINE • CODEX404 ARCHITECT</text>
+      <text x="435" y="20" fill="#34d399" class="font-mono" font-size="10.5">UTF-8</text>
+    </g>
+  </g>
 
 </svg>
