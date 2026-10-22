@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1200 260" role="img" aria-label="Enterprise Autonomous AI and Private RAG Architecture Blueprint">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="pipeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="50%" stop-color="#090f23"/>
+      <stop offset="100%" stop-color="#110d28"/>
+    </linearGradient>
+
+    <!-- Node Gradient 1 -->
+    <linearGradient id="nodeGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f263e"/>
+      <stop offset="100%" stop-color="#081424"/>
+    </linearGradient>
+
+    <!-- Node Gradient 2 -->
+    <linearGradient id="nodeGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#21153b"/>
+      <stop offset="100%" stop-color="#100b21"/>
+    </linearGradient>
+
+    <!-- Node Gradient 3 -->
+    <linearGradient id="nodeGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#082b24"/>
+      <stop offset="100%" stop-color="#051713"/>
+    </linearGradient>
+
+    <!-- Border Glow -->
+    <linearGradient id="pipeBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+
+    <!-- Circuit Grid Pattern -->
+    <pattern id="circuitGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#6366f1" stroke-opacity="0.08" stroke-width="0.8"/>
+      <circle cx="28" cy="28" r="1.2" fill="#38bdf8" fill-opacity="0.15"/>
+    </pattern>
+
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .font-mono { font-family: 'Fira Code', Consolas, monospace; }
+
+      @keyframes packetFlow {
+        0% { transform: translateX(0px); opacity: 0; }
+        15% { opacity: 1; }
+        85% { opacity: 1; }
+        100% { transform: translateX(960px); opacity: 0; }
+      }
+      .packet {
+        animation: packetFlow 4s infinite cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .packet-delayed {
+        animation: packetFlow 4s infinite cubic-bezier(0.4, 0, 0.2, 1);
+        animation-delay: 2s;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="260" rx="18" fill="url(#pipeBg)"/>
+  <rect width="1200" height="260" rx="18" fill="url(#circuitGrid)"/>
+  <rect x="1.5" y="1.5" width="1197" height="257" rx="17" fill="none" stroke="url(#pipeBorder)" stroke-width="1.3" stroke-opacity="0.45"/>
+
+  <!-- ==================== TITLE & STATUS ==================== -->
+  <g transform="translate(48, 24)">
+    <rect width="370" height="26" rx="13" fill="#0c172e" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <circle cx="14" cy="13" r="4.5" fill="#34d399"/>
+    <text x="28" y="17" fill="#bae6fd" class="font-sans" font-size="11" font-weight="700" letter-spacing="1">SYSTEM ARCHITECTURE • PRIVATE RAG &amp; AGENTS</text>
+    
+    <text x="0" y="58" fill="#ffffff" class="font-sans" font-size="22" font-weight="800">
+      Deterministic Enterprise AI &amp; Autonomous Multi-Agent Pipeline
+    </text>
+
+    <!-- Performance Badge -->
+    <g transform="translate(740, 6)">
+      <rect width="360" height="34" rx="8" fill="#0d1b2a" stroke="#6366f1" stroke-opacity="0.5"/>
+      <text x="16" y="22" fill="#38bdf8" class="font-mono" font-size="11.5" font-weight="700">⚡ P99 LATENCY &lt; 45ms</text>
+      <text x="180" y="22" fill="#34d399" class="font-mono" font-size="11.5" font-weight="700">🛡️ 0 HALLUCINATIONS</text>
+    </g>
+  </g>
+
+  <!-- ==================== FLOW CONNECTORS & DATA BUS ==================== -->
+  <line x1="90" y1="154" x2="1110" y2="154" stroke="#1e293b" stroke-width="3"/>
+  <line x1="90" y1="154" x2="1110" y2="154" stroke="#38bdf8" stroke-width="1.8" stroke-dasharray="8,8" stroke-opacity="0.6"/>
+
+  <!-- Animated Data Packets Traveling Through System -->
+  <g class="packet">
+    <circle cx="110" cy="154" r="5" fill="#38bdf8"/>
+    <circle cx="110" cy="154" r="10" fill="#38bdf8" fill-opacity="0.3"/>
+  </g>
+  <g class="packet-delayed">
+    <circle cx="110" cy="154" r="5" fill="#c084fc"/>
+    <circle cx="110" cy="154" r="10" fill="#c084fc" fill-opacity="0.3"/>
+  </g>
+
+  <!-- ==================== 5 PIPELINE STAGES ==================== -->
+
+  <!-- STAGE 1: Client Query / Webhook -->
+  <g transform="translate(48, 92)">
+    <rect width="200" height="124" rx="12" fill="url(#nodeGrad1)" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1.2"/>
+    <rect x="12" y="12" width="70" height="18" rx="5" fill="#0369a1" fill-opacity="0.35"/>
+    <text x="47" y="25" fill="#7dd3fc" class="font-mono" font-size="10" font-weight="700" text-anchor="middle">STAGE 1</text>
+    <text x="12" y="52" fill="#ffffff" class="font-sans" font-size="13" font-weight="700">Ingestion &amp; Guard</text>
+    <text x="12" y="72" fill="#94a3b8" class="font-sans" font-size="11">FastAPI REST / Webhooks</text>
+    <text x="12" y="90" fill="#94a3b8" class="font-sans" font-size="11">Input Sanitization &amp; Rate</text>
+    <text x="12" y="108" fill="#38bdf8" class="font-mono" font-size="10">&gt; Pydantic v2 Type-Safe</text>
+  </g>
+
+  <!-- STAGE 2: Hybrid Search & Vector DB -->
+  <g transform="translate(276, 92)">
+    <rect width="200" height="124" rx="12" fill="url(#nodeGrad2)" stroke="#818cf8" stroke-opacity="0.45" stroke-width="1.2"/>
+    <rect x="12" y="12" width="70" height="18" rx="5" fill="#3730a3" fill-opacity="0.35"/>
+    <text x="47" y="25" fill="#c7d2fe" class="font-mono" font-size="10" font-weight="700" text-anchor="middle">STAGE 2</text>
+    <text x="12" y="52" fill="#ffffff" class="font-sans" font-size="13" font-weight="700">Private RAG Retrieval</text>
+    <text x="12" y="72" fill="#94a3b8" class="font-sans" font-size="11">Qdrant Vector Engine</text>
+    <text x="12" y="90" fill="#94a3b8" class="font-sans" font-size="11">Dense + BM25 Hybrid</text>
+    <text x="12" y="108" fill="#a5b4fc" class="font-mono" font-size="10">&gt; Cosine Sim &gt; 0.88</text>
+  </g>
+
+  <!-- STAGE 3: Autonomous Multi-Agent Loop -->
+  <g transform="translate(504, 92)">
+    <rect width="204" height="124" rx="12" fill="url(#nodeGrad2)" stroke="#c084fc" stroke-opacity="0.5" stroke-width="1.3"/>
+    <rect x="12" y="12" width="70" height="18" rx="5" fill="#6b21a8" fill-opacity="0.4"/>
+    <text x="47" y="25" fill="#f5d0fe" class="font-mono" font-size="10" font-weight="700" text-anchor="middle">STAGE 3</text>
+    <text x="12" y="52" fill="#ffffff" class="font-sans" font-size="13" font-weight="700">Agentic Reasoning</text>
+    <text x="12" y="72" fill="#94a3b8" class="font-sans" font-size="11">Azure OpenAI LLM Orchestrator</text>
+    <text x="12" y="90" fill="#94a3b8" class="font-sans" font-size="11">Dynamic Tool Calling</text>
+    <text x="12" y="108" fill="#e879f9" class="font-mono" font-size="10">&gt; Planner ➔ Executor</text>
+  </g>
+
+  <!-- STAGE 4: Verification & Zero-Defect Filter -->
+  <g transform="translate(736, 92)">
+    <rect width="200" height="124" rx="12" fill="url(#nodeGrad3)" stroke="#34d399" stroke-opacity="0.45" stroke-width="1.2"/>
+    <rect x="12" y="12" width="70" height="18" rx="5" fill="#065f46" fill-opacity="0.4"/>
+    <text x="47" y="25" fill="#a7f3d0" class="font-mono" font-size="10" font-weight="700" text-anchor="middle">STAGE 4</text>
+    <text x="12" y="52" fill="#ffffff" class="font-sans" font-size="13" font-weight="700">Deterministic Checks</text>
+    <text x="12" y="72" fill="#94a3b8" class="font-sans" font-size="11">Hallucination Filters</text>
+    <text x="12" y="90" fill="#94a3b8" class="font-sans" font-size="11">Citation Grounding &amp; Auth</text>
+    <text x="12" y="108" fill="#34d399" class="font-mono" font-size="10">&gt; 100% Fact Verified</text>
+  </g>
+
+  <!-- STAGE 5: Production Output & Client IP -->
+  <g transform="translate(964, 92)">
+    <rect width="188" height="124" rx="12" fill="url(#nodeGrad1)" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1.2"/>
+    <rect x="12" y="12" width="70" height="18" rx="5" fill="#0369a1" fill-opacity="0.35"/>
+    <text x="47" y="25" fill="#7dd3fc" class="font-mono" font-size="10" font-weight="700" text-anchor="middle">STAGE 5</text>
+    <text x="12" y="52" fill="#ffffff" class="font-sans" font-size="13" font-weight="700">Action Dispatched</text>
+    <text x="12" y="72" fill="#94a3b8" class="font-sans" font-size="11">Sub-50ms API Response</text>
+    <text x="12" y="90" fill="#94a3b8" class="font-sans" font-size="11">Zero Lock-In Client IP</text>
+    <text x="12" y="108" fill="#38bdf8" class="font-mono" font-size="10">&gt; Zero Downtime</text>
+  </g>
+
+</svg>

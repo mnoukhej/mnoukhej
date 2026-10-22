@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1200 280" role="img" aria-label="CodeX404 Solutions — Senior Engineering Studio">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="codexBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a17"/>
+      <stop offset="50%" stop-color="#0e1329"/>
+      <stop offset="100%" stop-color="#140f2b"/>
+    </linearGradient>
+
+    <!-- Neon Glow Gradient -->
+    <linearGradient id="codexNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1">
+        <animate attributeName="stop-color" values="#6366f1; #a855f7; #ec4899; #38bdf8; #6366f1" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#a855f7">
+        <animate attributeName="stop-color" values="#a855f7; #ec4899; #38bdf8; #6366f1; #a855f7" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8; #6366f1; #a855f7; #ec4899; #38bdf8" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161f38" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0b1021" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- Radial Glow Behind Logo -->
+    <radialGradient id="centerGlow" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#6366f1" fill-opacity="0.18"/>
+    </pattern>
+
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .font-mono { font-family: 'Fira Code', Consolas, monospace; }
+
+      @keyframes pulseLight {
+        0%, 100% { opacity: 0.9; }
+        50% { opacity: 0.35; }
+      }
+      .pulse-beacon { animation: pulseLight 2s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="280" rx="18" fill="url(#codexBg)"/>
+  <rect width="1200" height="280" rx="18" fill="url(#dotGrid)"/>
+  <rect width="1200" height="280" rx="18" fill="url(#centerGlow)"/>
+  <rect x="1.5" y="1.5" width="1197" height="277" rx="17" fill="none" stroke="url(#codexNeon)" stroke-width="1.5" stroke-opacity="0.6"/>
+
+  <!-- ==================== HEADER ROW ==================== -->
+  <g transform="translate(48, 30)">
+    <!-- Studio Tag -->
+    <rect width="260" height="26" rx="13" fill="#1e1b4b" stroke="#818cf8" stroke-opacity="0.5"/>
+    <circle cx="14" cy="13" r="4.5" fill="#38bdf8" class="pulse-beacon"/>
+    <text x="28" y="17" fill="#c7d2fe" class="font-sans" font-size="11" font-weight="700" letter-spacing="1">FLAGSHIP VENTURE • EST. 2024</text>
+
+    <!-- Main Title -->
+    <text x="0" y="64" fill="#ffffff" class="font-sans" font-size="32" font-weight="800" letter-spacing="-0.5">
+      CodeX404 <tspan fill="url(#codexNeon)">Solutions</tspan>
+    </text>
+
+    <!-- Slogan / Philosophy -->
+    <text x="0" y="88" fill="#94a3b8" class="font-sans" font-size="13.5" font-weight="500">
+      Senior Engineering Studio • <tspan fill="#38bdf8">Where Bugs Meet Their Match</tspan> • 100% Senior Direct Delivery
+    </text>
+
+    <!-- Live Client Footprint Pill -->
+    <g transform="translate(620, 16)">
+      <rect width="480" height="66" rx="12" fill="#0d1424" stroke="#334155" stroke-width="1"/>
+      <text x="20" y="28" fill="#f8fafc" class="font-sans" font-size="12" font-weight="700">🌍 GLOBAL CLIENT FOOTPRINT &amp; SLA ADHERENCE</text>
+      <text x="20" y="48" fill="#34d399" class="font-sans" font-size="11.5" font-weight="600">
+        USA • United Kingdom • UAE • Saudi Arabia • Canada • India
+      </text>
+      <text x="390" y="28" fill="#38bdf8" class="font-mono" font-size="11.5" font-weight="700">99.99% SLA</text>
+    </g>
+  </g>
+
+  <!-- ==================== 4 CORE SOLUTION PILLARS ==================== -->
+  <g transform="translate(48, 142)">
+    
+    <!-- Pillar 1: Enterprise AI -->
+    <g transform="translate(0, 0)">
+      <rect width="262" height="110" rx="12" fill="url(#cardBg)" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1.2"/>
+      <circle cx="28" cy="28" r="14" fill="#312e81"/>
+      <text x="28" y="34" fill="#a5b4fc" class="font-sans" font-size="16" text-anchor="middle">🤖</text>
+      <text x="52" y="33" fill="#f8fafc" class="font-sans" font-size="13.5" font-weight="700">Autonomous AI</text>
+      <text x="16" y="60" fill="#94a3b8" class="font-sans" font-size="11.5">Private RAG Knowledge Engines,</text>
+      <text x="16" y="78" fill="#94a3b8" class="font-sans" font-size="11.5">Azure OpenAI &amp; Qdrant Vector DB</text>
+      <text x="16" y="96" fill="#38bdf8" class="font-mono" font-size="10.5" font-weight="600">&gt; Sub-50ms Hybrid Search</text>
+    </g>
+
+    <!-- Pillar 2: Custom Cloud SaaS -->
+    <g transform="translate(280, 0)">
+      <rect width="262" height="110" rx="12" fill="url(#cardBg)" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.2"/>
+      <circle cx="28" cy="28" r="14" fill="#0c4a6e"/>
+      <text x="28" y="34" fill="#38bdf8" class="font-sans" font-size="16" text-anchor="middle">⚡</text>
+      <text x="52" y="33" fill="#f8fafc" class="font-sans" font-size="13.5" font-weight="700">Custom Cloud SaaS</text>
+      <text x="16" y="60" fill="#94a3b8" class="font-sans" font-size="11.5">Resilient Python &amp; FastAPI</text>
+      <text x="16" y="78" fill="#94a3b8" class="font-sans" font-size="11.5">Microservices, React, Docker</text>
+      <text x="16" y="96" fill="#34d399" class="font-mono" font-size="10.5" font-weight="600">&gt; 0 Bugs Deterministic Logic</text>
+    </g>
+
+    <!-- Pillar 3: Workflow Automation -->
+    <g transform="translate(560, 0)">
+      <rect width="262" height="110" rx="12" fill="url(#cardBg)" stroke="#c084fc" stroke-opacity="0.4" stroke-width="1.2"/>
+      <circle cx="28" cy="28" r="14" fill="#581c87"/>
+      <text x="28" y="34" fill="#c084fc" class="font-sans" font-size="16" text-anchor="middle">🔄</text>
+      <text x="52" y="33" fill="#f8fafc" class="font-sans" font-size="13.5" font-weight="700">Workflow Automation</text>
+      <text x="16" y="60" fill="#94a3b8" class="font-sans" font-size="11.5">WhatsApp API, CRM Pipelines,</text>
+      <text x="16" y="78" fill="#94a3b8" class="font-sans" font-size="11.5">Stripe &amp; Webhook Dispatchers</text>
+      <text x="16" y="96" fill="#c084fc" class="font-mono" font-size="10.5" font-weight="600">&gt; 100% Client IP Ownership</text>
+    </g>
+
+    <!-- Pillar 4: Institutional Platforms -->
+    <g transform="translate(840, 0)">
+      <rect width="264" height="110" rx="12" fill="url(#cardBg)" stroke="#34d399" stroke-opacity="0.4" stroke-width="1.2"/>
+      <circle cx="28" cy="28" r="14" fill="#064e3b"/>
+      <text x="28" y="34" fill="#34d399" class="font-sans" font-size="16" text-anchor="middle">🏫</text>
+      <text x="52" y="33" fill="#f8fafc" class="font-sans" font-size="13.5" font-weight="700">High-Scale Portals</text>
+      <text x="16" y="60" fill="#94a3b8" class="font-sans" font-size="11.5">Insan Degree College ERP,</text>
+      <text x="16" y="78" fill="#94a3b8" class="font-sans" font-size="11.5">25,000+ Real-Time Peak Traffic</text>
+      <text x="16" y="96" fill="#f43f5e" class="font-mono" font-size="10.5" font-weight="600">&gt; Zero Downtime Record</text>
+    </g>
+
+  </g>
+
+</svg>

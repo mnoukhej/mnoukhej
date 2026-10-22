@@ -1,27 +1,27 @@
 <div align="center">
 
-  <!-- ==================== EXECUTIVE ANIMATED BANNER (AUTO-FIT 100%) ==================== -->
+  <!-- ==================== 1. MASTER EXECUTIVE ANIMATED BANNER ==================== -->
   <a href="https://codex404solutions.online/">
     <img src="assets/profile-banner.svg" alt="Muhammad Noukhez — Founder @ CodeX404 Solutions | Senior Python & GenAI Architect" width="100%">
   </a>
 
   <br/><br/>
 
-  <!-- ==================== INFINITE TECH SCROLLER ==================== -->
-  <a href="#-technical-arsenal">
-    <img src="assets/tech-scroller.svg" alt="Tech Stack Infinite Scroller" width="100%">
+  <!-- ==================== 2. INFINITE TECH MARQUEE SCROLLER ==================== -->
+  <a href="#-technical-arsenal--capabilities">
+    <img src="assets/tech-scroller.svg" alt="Core Technologies Infinite Scroller" width="100%">
   </a>
 
   <br/><br/>
 
-  <!-- ==================== RESPONSIVE DYNAMIC TYPING SUBTITLE ==================== -->
+  <!-- ==================== 3. RESPONSIVE DYNAMIC TYPING SUBTITLE ==================== -->
   <a href="https://codex404solutions.online/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2400&pause=1000&color=38BDF8&center=true&vCenter=true&width=480&lines=Founder+%26+CEO+%40+CodeX404+Solutions;Senior+Python+Developer+%26+AI+Architect;7%2B+Years+Enterprise+at+TCS+RnI;Enterprise+GenAI%2C+Azure+OpenAI+%26+RAG;Where+Bugs+Meet+Their+Match;Deterministic+Zero+Defect+Guarantee" alt="Dynamic Typing Subtitle" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2400&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Founder+%26+CEO+%40+CodeX404+Solutions;Senior+Python+Developer+%26+AI+Architect;7%2B+Years+Enterprise+at+TCS+RnI;Enterprise+GenAI%2C+Azure+OpenAI+%26+RAG;Where+Bugs+Meet+Their+Match;Deterministic+Zero+Defect+Guarantee" alt="Dynamic Typing Subtitle" />
   </a>
 
   <br/>
 
-  <!-- ==================== QUICK-ACTION TOUCHPOINT PILLS (WRAPPING SAFELY) ==================== -->
+  <!-- ==================== 4. HIGH-IMPACT TOUCHPOINT PILLS (SAFE WRAP) ==================== -->
   <p align="center">
     <a href="https://linkedin.com/in/mnoukhej" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Muhammad%20Noukhez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
@@ -44,17 +44,17 @@
 
 ---
 
-### 👨‍💻 Professional Summary
+### 👨‍💻 Executive Summary & Engineering Philosophy
 
-I am a **Senior Python Developer & AI Systems Architect** with **7+ years of enterprise engineering experience** at **Tata Consultancy Services (TCS)** across **Research & Innovation (RnI)** and **Research & Development (RnD)** teams. 
+I am a **Senior Python Developer & AI Systems Architect** with **7+ years of enterprise engineering experience** at **Tata Consultancy Services (TCS)** across **Research & Innovation (RnI)** and **Research & Development (RnD)** divisions.
 
-I am also the **Founder & CEO** of **[CodeX404 Solutions](https://codex404solutions.online/)**, a senior engineering studio dedicated to building high-performance custom software, enterprise AI, autonomous agents, and resilient workflow pipelines for businesses across **India, the US, UK, UAE, Saudi Arabia, Canada, and Australia**.
+I am also the **Founder & CEO** of **[CodeX404 Solutions](https://codex404solutions.online/)**, a senior engineering studio delivering production-grade custom software, autonomous AI agent systems, private enterprise RAG architectures, and cloud workflow pipelines for clients across **India, the US, UK, UAE, Saudi Arabia, Canada, and Australia**.
 
-> 💡 *"Where Bugs Meet Their Match — We design, build, and automate high-performance software systems with zero bugs, production-grade cloud architectures, and full client IP ownership."*
+> 💡 **The Core Thesis:** *"Where Bugs Meet Their Match — We design, engineer, and deploy high-throughput software systems built on strict type-safety, automated idempotency, 99.99% SLA adherence, and 100% client intellectual property ownership."*
 
 <br/>
 
-<!-- ==================== ANIMATED METRICS MOTION SLIDER ==================== -->
+<!-- ==================== 5. ANIMATED ENTERPRISE METRICS MOTION SLIDER ==================== -->
 <div align="center">
   <img src="assets/metrics-banner.svg" alt="Enterprise Metrics & Pedigree Showcase" width="100%">
 </div>
@@ -65,31 +65,37 @@ I am also the **Founder & CEO** of **[CodeX404 Solutions](https://codex404soluti
 
 <div align="center">
   <a href="https://codex404solutions.online/">
-    <img src="https://img.shields.io/badge/CodeX404%20Solutions-Software%20%26%20AI%20that%20moves%20business%20forward-6366F1?style=for-the-badge&logo=rocket&logoColor=white" alt="CodeX404 Solutions Banner">
+    <img src="assets/codex404-banner.svg" alt="CodeX404 Solutions Banner" width="100%">
   </a>
 </div>
 <br/>
 
 **[CodeX404 Solutions](https://codex404solutions.online/)** operates on three uncompromising engineering pillars:
-- 🎯 **100% Senior Direct Engineering** — Direct technical leadership with zero junior handoffs or communication bottlenecks.
-- 🐛 **Deterministic Zero-Defect Guarantee** — Strict type-safety, automated idempotency, and comprehensive vulnerability elimination.
-- 🔓 **Zero Vendor Lock-In** — Clients receive 100% intellectual property (IP), clean modular source code, and full containerized deployment assets.
 
-#### Core Solution Areas:
-1. **🤖 Enterprise AI & Autonomous Agents**
-   - Private RAG (Retrieval-Augmented Generation) knowledge engines using **Qdrant, Pinecone, and Azure OpenAI**.
-   - Multi-tool autonomous agentic loops for real-time customer inquiry resolution, CRM synchronization, and intelligent document parsing.
+- 🎯 **100% Senior Direct Engineering** — Direct technical leadership with zero junior handoffs, miscommunication, or agency overhead.
+- 🐛 **Deterministic Zero-Defect Guarantee** — Strict static typing, exhaustive boundary condition tests, and vulnerability elimination.
+- 🔓 **Zero Vendor Lock-In** — Clients receive 100% intellectual property (IP), clean modular source code, and containerized deployment pipelines.
+
+#### Core Solution Capabilities:
+1. **🤖 Autonomous AI & Private RAG Systems**
+   - Private RAG knowledge engines engineered with **Qdrant, Pinecone, and Azure OpenAI**.
+   - Multi-tool autonomous agentic workflows for real-time customer inquiry resolution, CRM synchronization, and intelligent document parsing.
 2. **⚡ Custom Cloud Software & SaaS Platforms**
    - Low-latency web services built with **Python (FastAPI, Django, Flask)**, **Node.js**, and **React**.
    - Sub-50ms API response times (p99), Lighthouse 99+ scores, and resilient cloud architectures.
 3. **🔄 Workflow & Business Process Automation**
    - End-to-end integration across WhatsApp Business API, CRM platforms, Stripe/Razorpay payment gateways, and automated webhook dispatchers.
 4. **🏫 Institutional Web Platforms & ERPs**
-   - High-throughput portals such as **[Insan Degree College](https://insandegreeclg.codex404solutions.online)** (handling **25,000+ monthly active visits** during admission season with zero downtime).
+   - High-throughput portals such as **[Insan Degree College](https://insandegreeclg.codex404solutions.online)** (handling **25,000+ monthly active visits** during peak admission season with zero downtime).
 
 ---
 
 ### 💼 Enterprise Career Pedigree (Tata Consultancy Services)
+
+<div align="center">
+  <img src="assets/timeline-banner.svg" alt="7+ Years Enterprise Career Timeline Banner" width="100%">
+</div>
+<br/>
 
 Over **7+ years at TCS**, I contributed to critical enterprise software, research initiatives, and operational reliability:
 
@@ -112,17 +118,22 @@ Over **7+ years at TCS**, I contributed to critical enterprise software, researc
 
 ---
 
-### 🎓 Education
+### 🧠 Enterprise AI & Autonomous Agent Architecture
 
-- **Master of Technology (M.Tech) in Computer Science & Engineering**
+<div align="center">
+  <img src="assets/ai-pipeline.svg" alt="Enterprise Autonomous AI and Private RAG Architecture Blueprint" width="100%">
+</div>
+<br/>
+
+> ⚡ **Architectural Highlight:** Every AI system engineered under CodeX404 Solutions pairs generative LLM capabilities with deterministic verification layers, semantic guardrails, and hybrid dense/sparse retrieval engines—eliminating hallucinations and guaranteeing sub-50ms query turnaround.
 
 ---
 
-### 🛠️ Technical Arsenal
+### 🛠️ Technical Arsenal & Capabilities
 
 <div align="center">
 
-#### 💻 Programming Languages & Runtimes
+#### 💻 Core Programming Languages & Runtimes
 <p align="center">
   <img src="https://img.shields.io/badge/Python%203.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" height="28" />
   <img src="https://img.shields.io/badge/JavaScript%20ESNext-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" height="28" />
@@ -186,10 +197,10 @@ Over **7+ years at TCS**, I contributed to critical enterprise software, researc
 
 ### 🚀 Production Systems & Featured Repositories
 
-<!-- ==================== RESPONSIVE PROJECT CARDS (NO TABLE SQUISHING ON MOBILE) ==================== -->
+<!-- Responsive card blockquotes that auto-fit 100% on any screen without table squishing -->
 
 > ### 🌐 [CodeX404 Solutions Platform](https://codex404solutions.online/)
-> **Flagship Venture** • `Founder & CEO` • `Global Clients (US, UK, UAE, IN, CA)`
+> **Flagship Venture** • `Founder & CEO` • `Global Reach (US, UK, UAE, IN, CA)`
 >
 > Engineering studio delivering custom software, AI agents, enterprise RAG engines, and zero-defect cloud backends worldwide.
 >
@@ -232,7 +243,7 @@ Over **7+ years at TCS**, I contributed to critical enterprise software, researc
 
 ---
 
-### 📊 GitHub Activity & Metrics
+### 📊 GitHub Activity & Real-Time Metrics
 
 <div align="center">
 
@@ -257,10 +268,16 @@ Over **7+ years at TCS**, I contributed to critical enterprise software, researc
 
 ### 📬 Direct Touchpoints & Collaboration
 
-I am available for **Senior Python Developer**, **AI/GenAI Systems Architect**, and **Technical Lead** roles, as well as enterprise software consulting through **CodeX404 Solutions**.
+<!-- ==================== 6. DEDICATED COLLABORATION & TOUCHPOINT SVG BANNER ==================== -->
+<div align="center">
+  <a href="https://codex404solutions.online/discovery-call.php">
+    <img src="assets/contact-banner.svg" alt="Direct Touchpoints and Collaboration Call-to-Action" width="100%">
+  </a>
+</div>
+
+<br/>
 
 <div align="center">
-
   <p>
     <a href="https://linkedin.com/in/mnoukhej" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
@@ -288,5 +305,4 @@ I am available for **Senior Python Developer**, **AI/GenAI Systems Architect**, 
   <br/>
 
   <sub>© 2026 Muhammad Noukhez • Founder &amp; CEO at CodeX404 Solutions • Architected with clean engineering &amp; zero defects.</sub>
-
 </div>

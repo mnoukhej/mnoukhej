@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1200 290" role="img" aria-label="7+ Years Enterprise Career Pedigree Timeline">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="timeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050713"/>
+      <stop offset="50%" stop-color="#0b1126"/>
+      <stop offset="100%" stop-color="#120c2a"/>
+    </linearGradient>
+
+    <!-- Neon Accent Gradient -->
+    <linearGradient id="timeNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="33%" stop-color="#818cf8"/>
+      <stop offset="66%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+
+    <!-- Moving Glow Pulse along the timeline -->
+    <linearGradient id="pulseGlowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <pattern id="timeGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#6366f1" stroke-opacity="0.07" stroke-width="0.8"/>
+    </pattern>
+
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .font-mono { font-family: 'Fira Code', Consolas, monospace; }
+
+      @keyframes travelPulse {
+        0% { transform: translateX(0px); opacity: 0.2; }
+        50% { opacity: 1; }
+        100% { transform: translateX(860px); opacity: 0.2; }
+      }
+      .timeline-runner {
+        animation: travelPulse 5s infinite cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    </style>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="290" rx="18" fill="url(#timeBg)"/>
+  <rect width="1200" height="290" rx="18" fill="url(#timeGrid)"/>
+  <rect x="1.5" y="1.5" width="1197" height="287" rx="17" fill="none" stroke="url(#timeNeon)" stroke-width="1.4" stroke-opacity="0.45"/>
+
+  <!-- ==================== HEADER SECTION ==================== -->
+  <g transform="translate(48, 28)">
+    <rect width="320" height="26" rx="13" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <circle cx="14" cy="13" r="4.5" fill="#38bdf8"/>
+    <text x="28" y="17" fill="#e0f2fe" class="font-sans" font-size="11" font-weight="700" letter-spacing="1">7+ YEARS ENTERPRISE PEDIGREE</text>
+    
+    <text x="0" y="60" fill="#ffffff" class="font-sans" font-size="26" font-weight="800">
+      Career Progression: <tspan fill="#38bdf8">TCS RnI</tspan> &#8594; <tspan fill="#818cf8">TCS RnD</tspan> &#8594; <tspan fill="#c084fc">CodeX404 Solutions</tspan>
+    </text>
+  </g>
+
+  <!-- ==================== TIMELINE TRACK & MILESTONES ==================== -->
+  <!-- Horizontal Connecting Bus -->
+  <line x1="90" y1="126" x2="1110" y2="126" stroke="#334155" stroke-width="2.5"/>
+  <line x1="90" y1="126" x2="1110" y2="126" stroke="url(#timeNeon)" stroke-width="2" stroke-dasharray="6,6"/>
+
+  <!-- Animated Glowing Runner across timeline -->
+  <g class="timeline-runner">
+    <circle cx="90" cy="126" r="6" fill="#38bdf8"/>
+    <circle cx="90" cy="126" r="14" fill="#38bdf8" fill-opacity="0.25"/>
+  </g>
+
+  <!-- ==================== 4 MILESTONE CARDS ==================== -->
+  
+  <!-- STAGE 1: TCS IT Support & Systems (2018 - 2020) -->
+  <g transform="translate(48, 106)">
+    <!-- Node Dot -->
+    <circle cx="42" cy="20" r="12" fill="#0f172a" stroke="#38bdf8" stroke-width="2.5"/>
+    <circle cx="42" cy="20" r="5" fill="#38bdf8"/>
+    
+    <!-- Content Box -->
+    <g transform="translate(0, 42)">
+      <rect width="260" height="114" rx="10" fill="#0b1122" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1.2"/>
+      <rect x="12" y="10" width="96" height="20" rx="6" fill="#0369a1" fill-opacity="0.3"/>
+      <text x="60" y="24" fill="#38bdf8" class="font-mono" font-size="11" font-weight="700" text-anchor="middle">2018 – 2020</text>
+      
+      <text x="12" y="48" fill="#f8fafc" class="font-sans" font-size="13" font-weight="700">TCS Systems Specialist</text>
+      <text x="12" y="66" fill="#94a3b8" class="font-sans" font-size="11">Production Ops &amp; Support</text>
+      <text x="12" y="86" fill="#cbd5e1" class="font-sans" font-size="11">• P1/P2 Incident Command</text>
+      <text x="12" y="102" fill="#34d399" class="font-sans" font-size="11">• 99.99% SLA &amp; ITIL RCA</text>
+    </g>
+  </g>
+
+  <!-- STAGE 2: TCS RnD Python Developer (2021 - 2023) -->
+  <g transform="translate(336, 106)">
+    <!-- Node Dot -->
+    <circle cx="42" cy="20" r="12" fill="#0f172a" stroke="#818cf8" stroke-width="2.5"/>
+    <circle cx="42" cy="20" r="5" fill="#818cf8"/>
+    
+    <!-- Content Box -->
+    <g transform="translate(0, 42)">
+      <rect width="260" height="114" rx="10" fill="#0b1122" stroke="#818cf8" stroke-opacity="0.35" stroke-width="1.2"/>
+      <rect x="12" y="10" width="96" height="20" rx="6" fill="#3730a3" fill-opacity="0.4"/>
+      <text x="60" y="24" fill="#a5b4fc" class="font-mono" font-size="11" font-weight="700" text-anchor="middle">2021 – 2023</text>
+      
+      <text x="12" y="48" fill="#f8fafc" class="font-sans" font-size="13" font-weight="700">TCS RnD Python Dev</text>
+      <text x="12" y="66" fill="#94a3b8" class="font-sans" font-size="11">Backend &amp; Cloud Pipelines</text>
+      <text x="12" y="86" fill="#cbd5e1" class="font-sans" font-size="11">• FastAPI, Django &amp; Celery</text>
+      <text x="12" y="102" fill="#38bdf8" class="font-sans" font-size="11">• High-Volume DB Tuning</text>
+    </g>
+  </g>
+
+  <!-- STAGE 3: TCS RnI AI & GenAI Specialist (2023 - 2024) -->
+  <g transform="translate(624, 106)">
+    <!-- Node Dot -->
+    <circle cx="42" cy="20" r="12" fill="#0f172a" stroke="#c084fc" stroke-width="2.5"/>
+    <circle cx="42" cy="20" r="5" fill="#c084fc"/>
+    
+    <!-- Content Box -->
+    <g transform="translate(0, 42)">
+      <rect width="260" height="114" rx="10" fill="#0b1122" stroke="#c084fc" stroke-opacity="0.35" stroke-width="1.2"/>
+      <rect x="12" y="10" width="96" height="20" rx="6" fill="#6b21a8" fill-opacity="0.4"/>
+      <text x="60" y="24" fill="#e9d5ff" class="font-mono" font-size="11" font-weight="700" text-anchor="middle">2023 – 2024</text>
+      
+      <text x="12" y="48" fill="#f8fafc" class="font-sans" font-size="13" font-weight="700">TCS RnI AI Specialist</text>
+      <text x="12" y="66" fill="#94a3b8" class="font-sans" font-size="11">GenAI &amp; Enterprise LLMs</text>
+      <text x="12" y="86" fill="#cbd5e1" class="font-sans" font-size="11">• Azure OpenAI Integration</text>
+      <text x="12" y="102" fill="#c084fc" class="font-sans" font-size="11">• GenAI Model Benchmarking</text>
+    </g>
+  </g>
+
+  <!-- STAGE 4: Founder & CEO @ CodeX404 (2024 - Present) -->
+  <g transform="translate(912, 106)">
+    <!-- Node Dot -->
+    <circle cx="42" cy="20" r="12" fill="#0f172a" stroke="#34d399" stroke-width="2.5"/>
+    <circle cx="42" cy="20" r="5" fill="#34d399"/>
+    
+    <!-- Content Box -->
+    <g transform="translate(0, 42)">
+      <rect width="250" height="114" rx="10" fill="#061c18" stroke="#34d399" stroke-opacity="0.5" stroke-width="1.4"/>
+      <rect x="12" y="10" width="116" height="20" rx="6" fill="#065f46" fill-opacity="0.5"/>
+      <text x="70" y="24" fill="#6ee7b7" class="font-mono" font-size="10.5" font-weight="700" text-anchor="middle">2024 – PRESENT</text>
+      
+      <text x="12" y="48" fill="#f8fafc" class="font-sans" font-size="13" font-weight="700">Founder &amp; CEO</text>
+      <text x="12" y="66" fill="#34d399" class="font-sans" font-size="11" font-weight="600">CodeX404 Solutions</text>
+      <text x="12" y="86" fill="#cbd5e1" class="font-sans" font-size="11">• 0-Bugs Autonomous AI</text>
+      <text x="12" y="102" fill="#f43f5e" class="font-sans" font-size="11">• Global Software Delivery</text>
+    </g>
+  </g>
+
+</svg>
