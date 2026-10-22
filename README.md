@@ -9,7 +9,7 @@
 
   <!-- ==================== 2. INFINITE TECH MARQUEE SCROLLER ==================== -->
   <a href="#-technical-arsenal--capabilities">
-    <img src="assets/tech-scroller.svg" alt="Core Technologies Infinite Scroller" width="100%">
+    <img src="assets/tech-scroller-v2.svg" alt="Core Technologies Infinite Scroller" width="100%">
   </a>
 
   <br/><br/>
@@ -56,7 +56,7 @@ I am also the **Founder & CEO** of **[CodeX404 Solutions](https://codex404soluti
 
 <!-- ==================== 5. ANIMATED ENTERPRISE METRICS MOTION SLIDER ==================== -->
 <div align="center">
-  <img src="assets/metrics-banner.svg" alt="Enterprise Metrics & Pedigree Showcase" width="100%">
+  <img src="assets/metrics-banner-v2.svg" alt="Enterprise Metrics & Pedigree Showcase" width="100%">
 </div>
 
 ---
