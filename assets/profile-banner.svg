@@ -255,7 +255,7 @@
       📍 Kolkata, India &#160;•&#160; 🌐 Serving Global Clients (US, UK, UAE, IN, CA, AU)
     </text>
     <text x="0" y="24" fill="#38bdf8" class="font-sans" font-size="12" font-weight="600">
-      🔗 codex404solutions.online &#160;•&#160; <tspan fill="#94a3b8">linkedin.com/in/mnoukhej</tspan> &#160;•&#160; <tspan fill="#c084fc">github.com/codex404solutions</tspan>
+      🔗 codex404solutions.com &#160;•&#160; <tspan fill="#94a3b8">linkedin.com/in/mnoukhej</tspan> &#160;•&#160; <tspan fill="#c084fc">github.com/codex404solutions</tspan>
     </text>
   </g>
 
@@ -308,7 +308,7 @@
           <text x="20" y="122" fill="#94a3b8" class="font-mono" font-size="12">stack      = [<tspan fill="#34d399">"Python"</tspan>, <tspan fill="#34d399">"Azure OpenAI"</tspan>, <tspan fill="#34d399">"FastAPI"</tspan>]</text>
           <text x="20" y="146" fill="#94a3b8" class="font-mono" font-size="12">mission    = <tspan fill="#facc15">"Where Bugs Meet Their Match"</tspan></text>
           <text x="20" y="170" fill="#94a3b8" class="font-mono" font-size="12">guarantee  = <tspan fill="#38bdf8">"0 Bugs • 100% IP • Zero Lock-in"</tspan></text>
-          <text x="20" y="194" fill="#94a3b8" class="font-mono" font-size="12">contact    = <tspan fill="#a5b4fc">"contact@codex404solutions.online"</tspan></text>
+          <text x="20" y="194" fill="#94a3b8" class="font-mono" font-size="12">contact    = <tspan fill="#a5b4fc">"contact@codex404solutions.com"</tspan></text>
 
           <!-- Prompt Line -->
           <g transform="translate(0, 230)">

@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- ==================== 1. MASTER EXECUTIVE ANIMATED BANNER ==================== -->
-  <a href="https://codex404solutions.online/">
+  <a href="https://codex404solutions.com/">
     <img src="assets/profile-banner.svg" alt="Muhammad Noukhez — Founder @ CodeX404 Solutions | Senior Python & GenAI Architect" width="100%">
   </a>
 
@@ -15,7 +15,7 @@
   <br/><br/>
 
   <!-- ==================== 3. RESPONSIVE DYNAMIC TYPING SUBTITLE ==================== -->
-  <a href="https://codex404solutions.online/">
+  <a href="https://codex404solutions.com/">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2400&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Founder+%26+CEO+%40+CodeX404+Solutions;Senior+Python+Developer+%26+AI+Architect;7%2B+Years+Enterprise+at+TCS+RnI;Enterprise+GenAI%2C+Azure+OpenAI+%26+RAG;Where+Bugs+Meet+Their+Match;Deterministic+Zero+Defect+Guarantee" alt="Dynamic Typing Subtitle" />
   </a>
 
@@ -26,13 +26,13 @@
     <a href="https://linkedin.com/in/mnoukhej" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Muhammad%20Noukhez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
     </a>
-    <a href="https://codex404solutions.online/" target="_blank">
+    <a href="https://codex404solutions.com/" target="_blank">
       <img src="https://img.shields.io/badge/CodeX404%20Solutions-Official%20Site-6366F1?style=for-the-badge&logo=rocket&logoColor=white" alt="CodeX404 Solutions">
     </a>
     <a href="https://github.com/codex404solutions" target="_blank">
       <img src="https://img.shields.io/badge/GitHub%20Org-codex404solutions-181717?style=for-the-badge&logo=github&logoColor=white" alt="CodeX404 GitHub">
     </a>
-    <a href="https://codex404solutions.online/discovery-call.php" target="_blank">
+    <a href="https://codex404solutions.com/discovery-call.php" target="_blank">
       <img src="https://img.shields.io/badge/Schedule-Discovery%20Call-047857?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Discovery Call">
     </a>
     <a href="https://wa.me/917717747620" target="_blank">
@@ -48,7 +48,7 @@
 
 I am a **Senior Python Developer & AI Systems Architect** with **7+ years of enterprise engineering experience** at **Tata Consultancy Services (TCS)** across **Research & Innovation (RnI)** and **Research & Development (RnD)** divisions.
 
-I am also the **Founder & CEO** of **[CodeX404 Solutions](https://codex404solutions.online/)**, a senior engineering studio delivering production-grade custom software, autonomous AI agent systems, private enterprise RAG architectures, and cloud workflow pipelines for clients across **India, the US, UK, UAE, Saudi Arabia, Canada, and Australia**.
+I am also the **Founder & CEO** of **[CodeX404 Solutions](https://codex404solutions.com/)**, a senior engineering studio delivering production-grade custom software, autonomous AI agent systems, private enterprise RAG architectures, and cloud workflow pipelines for clients across **India, the US, UK, UAE, Saudi Arabia, Canada, and Australia**.
 
 > 💡 **The Core Thesis:** *"Where Bugs Meet Their Match — We design, engineer, and deploy high-throughput software systems built on strict type-safety, automated idempotency, 99.99% SLA adherence, and 100% client intellectual property ownership."*
 
@@ -64,13 +64,13 @@ I am also the **Founder & CEO** of **[CodeX404 Solutions](https://codex404soluti
 ### 🏢 CodeX404 Solutions — Flagship Venture
 
 <div align="center">
-  <a href="https://codex404solutions.online/">
+  <a href="https://codex404solutions.com/">
     <img src="assets/codex404-banner.svg" alt="CodeX404 Solutions Banner" width="100%">
   </a>
 </div>
 <br/>
 
-**[CodeX404 Solutions](https://codex404solutions.online/)** operates on three uncompromising engineering pillars:
+**[CodeX404 Solutions](https://codex404solutions.com/)** operates on three uncompromising engineering pillars:
 
 - 🎯 **100% Senior Direct Engineering** — Direct technical leadership with zero junior handoffs, miscommunication, or agency overhead.
 - 🐛 **Deterministic Zero-Defect Guarantee** — Strict static typing, exhaustive boundary condition tests, and vulnerability elimination.
@@ -86,7 +86,7 @@ I am also the **Founder & CEO** of **[CodeX404 Solutions](https://codex404soluti
 3. **🔄 Workflow & Business Process Automation**
    - End-to-end integration across WhatsApp Business API, CRM platforms, Stripe/Razorpay payment gateways, and automated webhook dispatchers.
 4. **🏫 Institutional Web Platforms & ERPs**
-   - High-throughput portals such as **[Insan Degree College](https://insandegreeclg.codex404solutions.online)** (handling **25,000+ monthly active visits** during peak admission season with zero downtime).
+   - High-throughput portals such as **[Insan Degree College](https://insandegreeclg.codex404solutions.com)** (handling **25,000+ monthly active visits** during peak admission season with zero downtime).
 
 ---
 
@@ -199,12 +199,12 @@ Over **7+ years at TCS**, I contributed to critical enterprise software, researc
 
 <!-- Responsive card blockquotes that auto-fit 100% on any screen without table squishing -->
 
-> ### 🌐 [CodeX404 Solutions Platform](https://codex404solutions.online/)
+> ### 🌐 [CodeX404 Solutions Platform](https://codex404solutions.com/)
 > **Flagship Venture** • `Founder & CEO` • `Global Reach (US, UK, UAE, IN, CA)`
 >
 > Engineering studio delivering custom software, AI agents, enterprise RAG engines, and zero-defect cloud backends worldwide.
 >
-> 🔗 [Explore codex404solutions.online →](https://codex404solutions.online/) &nbsp;|&nbsp; 🏢 [CodeX404 GitHub Organization →](https://github.com/codex404solutions)
+> 🔗 [Explore codex404solutions.com →](https://codex404solutions.com/) &nbsp;|&nbsp; 🏢 [CodeX404 GitHub Organization →](https://github.com/codex404solutions)
 
 > ### 🛡️ [Network Intrusion Detection System](https://github.com/mnoukhej/Instrusion-Detection-System)
 > **Cybersecurity ML Pipeline** • `scikit-learn` • `NSL-KDD Dataset` • `Python`
@@ -270,7 +270,7 @@ Over **7+ years at TCS**, I contributed to critical enterprise software, researc
 
 <!-- ==================== 6. DEDICATED COLLABORATION & TOUCHPOINT SVG BANNER ==================== -->
 <div align="center">
-  <a href="https://codex404solutions.online/discovery-call.php">
+  <a href="https://codex404solutions.com/discovery-call.php">
     <img src="assets/contact-banner.svg" alt="Direct Touchpoints and Collaboration Call-to-Action" width="100%">
   </a>
 </div>
@@ -282,16 +282,16 @@ Over **7+ years at TCS**, I contributed to critical enterprise software, researc
     <a href="https://linkedin.com/in/mnoukhej" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
     </a>
-    <a href="https://codex404solutions.online/" target="_blank">
+    <a href="https://codex404solutions.com/" target="_blank">
       <img src="https://img.shields.io/badge/CodeX404%20Solutions-6366F1?style=for-the-badge&logo=rocket&logoColor=white" alt="CodeX404 Solutions">
     </a>
     <a href="https://github.com/codex404solutions" target="_blank">
       <img src="https://img.shields.io/badge/CodeX404%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="CodeX404 GitHub">
     </a>
-    <a href="https://codex404solutions.online/discovery-call.php" target="_blank">
+    <a href="https://codex404solutions.com/discovery-call.php" target="_blank">
       <img src="https://img.shields.io/badge/Book%20a%20Call-047857?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Discovery Call">
     </a>
-    <a href="mailto:contact@codex404solutions.online">
+    <a href="mailto:contact@codex404solutions.com">
       <img src="https://img.shields.io/badge/Company%20Email-6366F1?style=for-the-badge&logo=gmail&logoColor=white" alt="Company Email">
     </a>
     <a href="mailto:mnoukhej@gmail.com">
@@ -304,5 +304,5 @@ Over **7+ years at TCS**, I contributed to critical enterprise software, researc
 
   <br/>
 
-  <sub>© 2026 Muhammad Noukhez • Founder &amp; CEO at CodeX404 Solutions • Architected with clean engineering &amp; zero defects.</sub>
+  <sub>© 2026 Developer: <strong>Muhammad Noukhez</strong> • Company: <strong>CodeX404 Solutions</strong> • Website: <a href="https://codex404solutions.com/">codex404solutions.com</a> • Architected with clean engineering &amp; zero defects.</sub>
 </div>
